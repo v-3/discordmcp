@@ -7,6 +7,7 @@ export const client = new Client({
     GatewayIntentBits.Guilds,
     GatewayIntentBits.GuildMessages,
     GatewayIntentBits.MessageContent,
+    GatewayIntentBits.DirectMessages,
   ],
 });
 
@@ -15,6 +16,11 @@ export async function initializeClient(): Promise<void> {
   // Set up event handlers
   client.once('ready', () => {
     console.error('Discord bot is ready!');
+  });
+
+  // Handle errors
+  client.on('error', (error) => {
+    console.error('Discord client error:', error);
   });
 
   // Login to Discord

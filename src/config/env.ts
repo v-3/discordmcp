@@ -13,10 +13,17 @@ export const config = {
 
 // Validate required environment variables
 export function validateEnv() {
+  const errors: string[] = [];
+
   if (!config.discord.token) {
-    throw new Error('DISCORD_TOKEN environment variable is not set');
+    errors.push('DISCORD_TOKEN environment variable is not set');
   }
+
   if (!config.discord.primaryUserId) {
-    throw new Error('DISCORD_PRIMARY_USER_ID environment variable is not set');
+    errors.push('DISCORD_PRIMARY_USER_ID environment variable is not set');
+  }
+
+  if (errors.length > 0) {
+    throw new Error('Environment validation failed:\n' + errors.join('\n'));
   }
 }

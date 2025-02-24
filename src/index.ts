@@ -19,6 +19,15 @@ const server = new Server(
   }
 );
 
+// Error handling for uncaught exceptions
+process.on('uncaughtException', (error) => {
+  console.error('Uncaught Exception:', error);
+});
+
+process.on('unhandledRejection', (reason, promise) => {
+  console.error('Unhandled Rejection at:', promise, 'reason:', reason);
+});
+
 // List available tools
 server.setRequestHandler(ListToolsRequestSchema, async () => ({
   tools,
@@ -67,7 +76,10 @@ async function main() {
     validateEnv();
     
     // Initialize Discord client
-    await initializeClient();
+    await initializeClient().catch(error => {
+      console.error('Failed to initialize Discord client:', error);
+      throw error;
+    });
 
     // Start MCP server
     const transport = new StdioServerTransport();
@@ -78,5 +90,16 @@ async function main() {
     process.exit(1);
   }
 }
+
+// Handle cleanup on exit
+process.on('SIGINT', async () => {
+  console.error('Shutting down...');
+  try {
+    await server.close();
+  } catch (error) {
+    console.error('Error during shutdown:', error);
+  }
+  process.exit(0);
+});
 
 main();
