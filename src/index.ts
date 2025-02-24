@@ -84,7 +84,7 @@ async function main() {
     // Start MCP server
     const transport = new StdioServerTransport();
     await server.connect(transport);
-    console.error("Discord MCP Server running on stdio");
+    console.log("Discord MCP Server running on stdio");
   } catch (error) {
     console.error("Fatal error in main():", error);
     process.exit(1);
@@ -93,7 +93,7 @@ async function main() {
 
 // Handle cleanup on exit
 process.on('SIGINT', async () => {
-  console.error('Shutting down...');
+  console.log('Shutting down...');
   try {
     await server.close();
   } catch (error) {

@@ -15,7 +15,7 @@ export const client = new Client({
 export async function initializeClient(): Promise<void> {
   // Set up event handlers
   client.once('ready', () => {
-    console.error('Discord bot is ready!');
+    console.log('Discord bot is ready!');
   });
 
   // Handle errors
