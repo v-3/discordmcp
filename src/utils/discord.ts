@@ -1,5 +1,6 @@
 import { Client, Guild, TextChannel, Message } from 'discord.js';
 import { MessageResponse } from '../types/schemas.js';
+import { config } from '../config/env.js';
 
 export async function findGuild(client: Client, guildIdentifier?: string): Promise<Guild> {
   if (!guildIdentifier) {
@@ -83,16 +84,20 @@ export function waitForResponse(
     }, timeout);
 
     const messageHandler = (message: Message) => {
-      if (message.channelId === channel.id && message.author.id === userId) {
-        cleanup();
-        resolve({
-          content: message.content,
-          author: {
-            id: message.author.id,
-            tag: message.author.tag,
-          },
-          timestamp: message.createdAt.toISOString(),
-        });
+      if (message.channelId === channel.id) {
+        // Check if message is from expected user or primary user
+        if (message.author.id === userId || message.author.id === config.discord.primaryUserId) {
+          cleanup();
+          resolve({
+            content: message.content,
+            author: {
+              id: message.author.id,
+              tag: message.author.tag,
+            },
+            timestamp: message.createdAt.toISOString(),
+            interrupted: message.author.id === config.discord.primaryUserId
+          });
+        }
       }
     };
 
