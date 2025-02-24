@@ -47,8 +47,8 @@ export const tools: Tool[] = [
         },
         timeout: {
           type: "number",
-          description: "Timeout in milliseconds to wait for response (default: 60000)",
-          default: 60000,
+          description: "Timeout in milliseconds (default: 3600000ms = 60 minutes)",
+          default: 3600000,
         },
       },
       required: ["channel", "message", "userId"],

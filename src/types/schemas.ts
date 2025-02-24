@@ -11,7 +11,7 @@ export const SendAndWaitSchema = z.object({
   channel: z.string().describe('Channel name (e.g., "general") or ID'),
   message: z.string().describe('Message content to send'),
   userId: z.string().describe('Discord user ID to wait for response from'),
-  timeout: z.number().optional().default(60000).describe('Timeout in milliseconds to wait for response'),
+  timeout: z.number().optional().default(3600000).describe('Timeout in milliseconds (default: 3600000ms = 60 minutes)'),
 });
 
 export const ReadMessagesSchema = z.object({

@@ -10,7 +10,7 @@ A Model Context Protocol (MCP) server that enables LLMs to interact with Discord
 - Automatic server and channel discovery
 - Support for both channel names and IDs
 - Proper error handling and validation
-- Response timeout handling
+- Configurable response timeout
 
 ## Prerequisites
 
@@ -103,7 +103,7 @@ Parameters:
 - `channel`: Channel name (e.g., "general") or ID
 - `message`: Message content to send
 - `userId`: Discord user ID to wait for response from
-- `timeout` (optional): Timeout in milliseconds to wait for response (default: 60000)
+- `timeout` (optional): Timeout in milliseconds (default: 3600000ms = 60 minutes)
 
 Example:
 ```json
@@ -111,7 +111,7 @@ Example:
   "channel": "general",
   "message": "Hello! What do you think about this?",
   "userId": "123456789012345678",
-  "timeout": 30000
+  "timeout": 3600000
 }
 ```
 
@@ -189,7 +189,7 @@ Claude will use the appropriate tools to interact with Discord while asking for 
 - Environment variables should be properly secured
 - Token should never be committed to version control
 - Channel access is limited to channels the bot has been given access to
-- Response waiting is limited to specific users and includes timeouts
+- Response waiting is limited to specific users and includes configurable timeouts
 
 ## Contributing
 
