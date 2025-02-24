@@ -5,10 +5,12 @@ A Model Context Protocol (MCP) server that enables LLMs to interact with Discord
 ## Features
 
 - Send messages to Discord channels
+- Send messages and wait for specific user responses
 - Read recent messages from channels
 - Automatic server and channel discovery
 - Support for both channel names and IDs
 - Proper error handling and validation
+- Response timeout handling
 
 ## Prerequisites
 
@@ -83,6 +85,56 @@ Example:
 }
 ```
 
+Response format:
+```json
+{
+  "messageId": "123456789012345678",
+  "content": "Hello from MCP!",
+  "channel": "#general",
+  "server": "My Server"
+}
+```
+
+### send-and-wait
+Sends a message to a specified Discord channel and waits for a response from a specific user.
+
+Parameters:
+- `server` (optional): Server name or ID (required if bot is in multiple servers)
+- `channel`: Channel name (e.g., "general") or ID
+- `message`: Message content to send
+- `userId`: Discord user ID to wait for response from
+- `timeout` (optional): Timeout in milliseconds to wait for response (default: 60000)
+
+Example:
+```json
+{
+  "channel": "general",
+  "message": "Hello! What do you think about this?",
+  "userId": "123456789012345678",
+  "timeout": 30000
+}
+```
+
+Response format:
+```json
+{
+  "sentMessage": {
+    "content": "Hello! What do you think about this?",
+    "messageId": "123456789012345678",
+    "channel": "#general",
+    "server": "My Server"
+  },
+  "response": {
+    "content": "I think that's a great idea!",
+    "author": {
+      "id": "123456789012345678",
+      "tag": "User#1234"
+    },
+    "timestamp": "2024-02-24T16:45:00.000Z"
+  }
+}
+```
+
 ### read-messages
 Reads recent messages from a specified Discord channel.
 
@@ -125,7 +177,8 @@ Here are some example interactions you can try with Claude after setting up the 
 
 1. "Can you read the last 5 messages from the general channel?"
 2. "Please send a message to the announcements channel saying 'Meeting starts in 10 minutes'"
-3. "What were the most recent messages in the development channel about the latest release?"
+3. "Send a question to the development channel and wait for the team lead (ID: 123456789) to respond"
+4. "Post the meeting agenda in the team channel"
 
 Claude will use the appropriate tools to interact with Discord while asking for your approval before sending any messages.
 
@@ -136,6 +189,7 @@ Claude will use the appropriate tools to interact with Discord while asking for 
 - Environment variables should be properly secured
 - Token should never be committed to version control
 - Channel access is limited to channels the bot has been given access to
+- Response waiting is limited to specific users and includes timeouts
 
 ## Contributing
 
