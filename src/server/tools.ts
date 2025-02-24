@@ -55,6 +55,33 @@ export const tools: Tool[] = [
     },
   },
   {
+    name: "wait-for-message",
+    description: "Wait for a message from a specific user in a channel",
+    inputSchema: {
+      type: "object",
+      properties: {
+        server: {
+          type: "string",
+          description: 'Server name or ID (optional if bot is only in one server)',
+        },
+        channel: {
+          type: "string",
+          description: 'Channel name (e.g., "general") or ID',
+        },
+        userId: {
+          type: "string",
+          description: "Discord user ID to wait for message from",
+        },
+        timeout: {
+          type: "number",
+          description: "Timeout in milliseconds (default: 3600000ms = 60 minutes)",
+          default: 3600000,
+        },
+      },
+      required: ["channel", "userId"],
+    },
+  },
+  {
     name: "read-messages",
     description: "Read recent messages from a Discord channel",
     inputSchema: {

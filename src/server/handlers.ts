@@ -1,7 +1,7 @@
 import { z } from 'zod';
 import { client } from '../client/index.js';
 import { findChannel, waitForResponse } from '../utils/discord.js';
-import { SendMessageSchema, SendAndWaitSchema, ReadMessagesSchema } from '../types/schemas.js';
+import { SendMessageSchema, SendAndWaitSchema, ReadMessagesSchema, WaitForMessageSchema } from '../types/schemas.js';
 
 export async function handleSendMessage(args: unknown) {
   const { channel: channelIdentifier, message } = SendMessageSchema.parse(args);
@@ -48,7 +48,9 @@ export async function handleSendAndWait(args: unknown) {
             content: response.content,
             author: response.author,
             timestamp: response.timestamp,
-          }
+            interrupted: response.interrupted || false
+          },
+          status: response.interrupted ? 'interrupted' : 'completed'
         }, null, 2),
       }],
     };
@@ -65,6 +67,47 @@ export async function handleSendAndWait(args: unknown) {
             server: channel.guild.name,
           },
           error: error instanceof Error ? error.message : 'Unknown error waiting for response',
+          status: 'error'
+        }, null, 2),
+      }],
+      isError: true,
+    };
+  }
+}
+
+export async function handleWaitForMessage(args: unknown) {
+  const { channel: channelIdentifier, userId, timeout } = WaitForMessageSchema.parse(args);
+  const channel = await findChannel(client, channelIdentifier);
+  
+  try {
+    // Wait for message
+    const response = await waitForResponse(client, channel, userId, timeout);
+    
+    return {
+      content: [{
+        type: "text",
+        text: JSON.stringify({
+          message: {
+            content: response.content,
+            author: response.author,
+            timestamp: response.timestamp,
+            interrupted: response.interrupted || false
+          },
+          channel: `#${channel.name}`,
+          server: channel.guild.name,
+          status: response.interrupted ? 'interrupted' : 'completed'
+        }, null, 2),
+      }],
+    };
+  } catch (error) {
+    return {
+      content: [{
+        type: "text",
+        text: JSON.stringify({
+          error: error instanceof Error ? error.message : 'Unknown error waiting for message',
+          channel: `#${channel.name}`,
+          server: channel.guild.name,
+          status: 'error'
         }, null, 2),
       }],
       isError: true,
