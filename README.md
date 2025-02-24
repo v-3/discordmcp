@@ -5,15 +5,20 @@ A Model Context Protocol (MCP) server that enables LLMs to interact with Discord
 ## Features
 
 - Send messages to Discord channels
+- Send messages and wait for specific user responses
+- Wait for messages from specific users
+- Interruptable wait operations by primary user
 - Read recent messages from channels
 - Automatic server and channel discovery
 - Support for both channel names and IDs
 - Proper error handling and validation
+- Configurable response timeout
 
 ## Prerequisites
 
 - Node.js 16.x or higher
 - A Discord bot token
+- Your Discord user ID (for primary user features)
 - The bot must be invited to your server with proper permissions:
   - Read Messages/View Channels
   - Send Messages
@@ -32,9 +37,10 @@ cd discordmcp
 npm install
 ```
 
-3. Create a `.env` file in the root directory with your Discord bot token:
+3. Create a `.env` file in the root directory with your Discord bot token and primary user ID:
 ```
 DISCORD_TOKEN=your_discord_bot_token_here
+DISCORD_PRIMARY_USER_ID=your_discord_user_id_here
 ```
 
 4. Build the server:
@@ -56,7 +62,8 @@ npm run build
       "command": "node",
       "args": ["path/to/discordmcp/build/index.js"],
       "env": {
-        "DISCORD_TOKEN": "your_discord_bot_token_here"
+        "DISCORD_TOKEN": "your_discord_bot_token_here",
+        "DISCORD_PRIMARY_USER_ID": "your_discord_user_id_here"
       }
     }
   }
@@ -80,6 +87,94 @@ Example:
 {
   "channel": "general",
   "message": "Hello from MCP!"
+}
+```
+
+Response format:
+```json
+{
+  "messageId": "123456789012345678",
+  "content": "Hello from MCP!",
+  "channel": "#general",
+  "server": "My Server"
+}
+```
+
+### send-and-wait
+Sends a message to a specified Discord channel and waits for a response from a specific user. Can be interrupted by the primary user.
+
+Parameters:
+- `server` (optional): Server name or ID (required if bot is in multiple servers)
+- `channel`: Channel name (e.g., "general") or ID
+- `message`: Message content to send
+- `userId`: Discord user ID to wait for response from
+- `timeout` (optional): Timeout in milliseconds (default: 3600000ms = 60 minutes)
+
+Example:
+```json
+{
+  "channel": "general",
+  "message": "Hello! What do you think about this?",
+  "userId": "123456789012345678",
+  "timeout": 3600000
+}
+```
+
+Response format:
+```json
+{
+  "sentMessage": {
+    "content": "Hello! What do you think about this?",
+    "messageId": "123456789012345678",
+    "channel": "#general",
+    "server": "My Server"
+  },
+  "response": {
+    "content": "I think that's a great idea!",
+    "author": {
+      "id": "123456789012345678",
+      "tag": "User#1234"
+    },
+    "timestamp": "2024-02-24T16:45:00.000Z",
+    "interrupted": false
+  },
+  "status": "completed"
+}
+```
+
+### wait-for-message
+Waits for a message from a specific user in a channel. Can be interrupted by the primary user.
+
+Parameters:
+- `server` (optional): Server name or ID (required if bot is in multiple servers)
+- `channel`: Channel name (e.g., "general") or ID
+- `userId`: Discord user ID to wait for message from
+- `timeout` (optional): Timeout in milliseconds (default: 3600000ms = 60 minutes)
+
+Example:
+```json
+{
+  "channel": "general",
+  "userId": "123456789012345678",
+  "timeout": 3600000
+}
+```
+
+Response format:
+```json
+{
+  "message": {
+    "content": "Here's my message",
+    "author": {
+      "id": "123456789012345678",
+      "tag": "User#1234"
+    },
+    "timestamp": "2024-02-24T16:45:00.000Z",
+    "interrupted": false
+  },
+  "channel": "#general",
+  "server": "My Server",
+  "status": "completed"
 }
 ```
 
@@ -125,9 +220,19 @@ Here are some example interactions you can try with Claude after setting up the 
 
 1. "Can you read the last 5 messages from the general channel?"
 2. "Please send a message to the announcements channel saying 'Meeting starts in 10 minutes'"
-3. "What were the most recent messages in the development channel about the latest release?"
+3. "Send a question to the development channel and wait for the team lead (ID: 123456789) to respond"
+4. "Wait for any message from user 123456789 in the general channel"
+5. "Post the meeting agenda in the team channel"
 
 Claude will use the appropriate tools to interact with Discord while asking for your approval before sending any messages.
+
+## Primary User Features
+
+The primary user (configured via DISCORD_PRIMARY_USER_ID) has special privileges:
+
+1. Can interrupt any waiting operation by sending a message
+2. When a wait is interrupted, the response includes an `interrupted: true` flag
+3. Useful for canceling long-running wait operations or taking over conversations
 
 ## Security Considerations
 
@@ -136,6 +241,8 @@ Claude will use the appropriate tools to interact with Discord while asking for 
 - Environment variables should be properly secured
 - Token should never be committed to version control
 - Channel access is limited to channels the bot has been given access to
+- Response waiting is limited to specific users and includes configurable timeouts
+- Primary user ID should be properly secured and belong to a trusted user
 
 ## Contributing
 

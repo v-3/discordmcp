@@ -5,7 +5,7 @@
   "type": "module",
   "main": "build/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
     "start": "node build/index.js",
     "dev": "tsc -w",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,7 +24,7 @@
     "zod": "^3.22.4"
   },
   "devDependencies": {
-    "@types/node": "^20.11.16",
+    "@types/node": "^20.17.19",
     "typescript": "^5.3.3"
   }
 }
