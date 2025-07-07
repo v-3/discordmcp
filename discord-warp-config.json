@@ -1,0 +1,20 @@
+{
+  "servers": {
+    "discord": {
+      "type": "warp",
+      "path": "/home/cinder/Documents/D_Projects/discordmcp/discord.warp",
+      "env": {
+        "DISCORD_BOT_TOKEN": "${input:discord_token}",
+        "DISCORD_GUILD_ID": "1391789832770027702"
+      }
+    }
+  },
+  "inputs": [
+    {
+      "id": "discord_token",
+      "type": "promptString",
+      "description": "Discord Bot Token",
+      "password": true
+    }
+  ]
+}
