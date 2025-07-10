@@ -67,6 +67,31 @@ npm run build
 
 ## Available Tools
 
+### delete-message
+Deletes a message from a specified Discord channel. 
+
+**Note:** The bot must have permission to manage messages in the channel to perform this operation.
+
+Parameters:
+- `channel`: Channel name (e.g., "general") or ID
+- `messageId`: ID of the message to delete
+
+Example JSON payload:
+```json
+{
+  "channel": "general",
+  "messageId": "123456789012345678"
+}
+```
+
+Usage example:
+```json
+{
+  "channel": "general",
+  "messageId": "123456789012345678"
+}
+```
+
 ### send-message
 Sends a message to a specified Discord channel.
 
@@ -86,6 +111,8 @@ Example:
 ### read-messages
 Reads recent messages from a specified Discord channel.
 
+**Note:** This tool now includes embedded content (images, attachments, etc.) in the response. When messages contain embedded content, you'll see additional information about the media files, links, and other rich content alongside the text.
+
 Parameters:
 - `server` (optional): Server name or ID (required if bot is in multiple servers)
 - `channel`: Channel name (e.g., "general") or ID
@@ -96,6 +123,34 @@ Example:
 {
   "channel": "general",
   "limit": 10
+}
+```
+
+Example response with embedded content:
+```json
+{
+  "messages": [
+    {
+      "id": "123456789012345678",
+      "author": "username",
+      "content": "Check out this cool image!",
+      "timestamp": "2024-01-15T10:30:00Z",
+      "attachments": [
+        {
+          "filename": "screenshot.png",
+          "url": "https://cdn.discordapp.com/attachments/...",
+          "size": 1024000
+        }
+      ],
+      "embeds": [
+        {
+          "title": "GitHub Repository",
+          "description": "An awesome project",
+          "url": "https://github.com/user/repo"
+        }
+      ]
+    }
+  ]
 }
 ```
 

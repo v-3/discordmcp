@@ -1,0 +1,12 @@
+{
+  "discord-mcp-server": {
+    "command": "node",
+    "args": ["build/index.js"],
+    "env": {
+      "DISCORD_TOKEN": "",
+      "DISCORD_GUILD_ID": "1391789832770027702"
+    },
+    "working_directory": "/home/cinder/Documents/D_Projects/discordmcp",
+    "start_on_launch": false
+  }
+}

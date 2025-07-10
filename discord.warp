@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+const { spawn } = require('child_process');
+const path = require('path');
+
+// Path to the built Discord MCP server
+const serverPath = path.join(__dirname, 'build', 'index.js');
+
+// Spawn the Discord MCP server
+const server = spawn('node', [serverPath], {
+  stdio: ['inherit', 'inherit', 'inherit']
+});
+
+server.on('exit', (code) => {
+  process.exit(code);
+});

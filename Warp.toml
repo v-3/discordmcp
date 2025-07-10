@@ -1,0 +1,12 @@
+[app]
+name = "discord-mcp-server"
+main = "build/index.js"
+
+[target]
+name = "discord-mcp-server"
+
+[build]
+command = "npm run build"
+
+[env]
+file = ".env"

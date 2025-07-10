@@ -1,0 +1,6190 @@
+[
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T18:15:04Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T18:15:04Z",
+        "messageBody": "",
+        "messageHeadline": "Add docstrings and type hints",
+        "oid": "420992ea85f55004420c86fbc8ac9e0fa6f93848"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "MERGEABLE",
+    "number": 13,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-08T18:15:22Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/Cinder-s-Webscraper/actions/runs/16151122748/job/45582393498",
+        "name": "build",
+        "startedAt": "2025-07-08T18:15:15Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-08T18:15:18Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/Cinder-s-Webscraper/actions/runs/16151121539/job/45582390035",
+        "name": "build",
+        "startedAt": "2025-07-08T18:15:11Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Add comprehensive docstrings",
+    "updatedAt": "2025-07-08T18:15:08Z",
+    "repository": "c1nderscript/Cinder-s-Webscraper"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T18:13:02Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T18:13:02Z",
+        "messageBody": "",
+        "messageHeadline": "Add malformed JSON load test",
+        "oid": "a5a032a53b8c57e75dad5b6c02817af0ba7001e2"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "MERGEABLE",
+    "number": 12,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-08T18:13:19Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/Cinder-s-Webscraper/actions/runs/16151081041/job/45582256714",
+        "name": "build",
+        "startedAt": "2025-07-08T18:13:12Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-08T18:13:19Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/Cinder-s-Webscraper/actions/runs/16151080063/job/45582254014",
+        "name": "build",
+        "startedAt": "2025-07-08T18:13:10Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Add malformed JSON config test",
+    "updatedAt": "2025-07-08T18:13:05Z",
+    "repository": "c1nderscript/Cinder-s-Webscraper"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T18:09:57Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T18:09:57Z",
+        "messageBody": "",
+        "messageHeadline": "Add module docstrings",
+        "oid": "da8e7b8f45329b8268cc23a763143db74de5bfe7"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "MERGEABLE",
+    "number": 11,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-08T18:10:21Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/Cinder-s-Webscraper/actions/runs/16151016119/job/45582038131",
+        "name": "build",
+        "startedAt": "2025-07-08T18:10:11Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-08T18:10:13Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/Cinder-s-Webscraper/actions/runs/16151015090/job/45582034403",
+        "name": "build",
+        "startedAt": "2025-07-08T18:10:06Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Add brief module docstrings",
+    "updatedAt": "2025-07-08T18:10:04Z",
+    "repository": "c1nderscript/Cinder-s-Webscraper"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T18:09:57Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T18:09:57Z",
+        "messageBody": "",
+        "messageHeadline": "Annotate task scheduler functions",
+        "oid": "179a72bc4a038ae8422eb0deadf5552be10860aa"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "MERGEABLE",
+    "number": 10,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-08T18:10:16Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/Cinder-s-Webscraper/actions/runs/16151016074/job/45582038001",
+        "name": "build",
+        "startedAt": "2025-07-08T18:10:09Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-08T18:10:11Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/Cinder-s-Webscraper/actions/runs/16151013995/job/45582030657",
+        "name": "build",
+        "startedAt": "2025-07-08T18:10:04Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Annotate task scheduler functions",
+    "updatedAt": "2025-07-08T18:10:03Z",
+    "repository": "c1nderscript/Cinder-s-Webscraper"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T18:09:59Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T18:09:59Z",
+        "messageBody": "",
+        "messageHeadline": "Add schedule manager tests",
+        "oid": "5f3b1a1f105d12e780d25bb6c120110684419c37"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "MERGEABLE",
+    "number": 9,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-08T18:10:16Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/Cinder-s-Webscraper/actions/runs/16151015858/job/45582037335",
+        "name": "build",
+        "startedAt": "2025-07-08T18:10:09Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-08T18:10:14Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/Cinder-s-Webscraper/actions/runs/16151014952/job/45582033886",
+        "name": "build",
+        "startedAt": "2025-07-08T18:10:05Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Add schedule manager tests",
+    "updatedAt": "2025-07-08T18:10:02Z",
+    "repository": "c1nderscript/Cinder-s-Webscraper"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T16:25:17Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T16:25:17Z",
+        "messageBody": "",
+        "messageHeadline": "Rename Agents.md to AGENTS.md",
+        "oid": "e571695399e772b81be2f9140d54cb29b7167ae3"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 8,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Rename Agents file",
+    "updatedAt": "2025-07-08T16:42:33Z",
+    "repository": "c1nderscript/Cinder-s-Webscraper"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T16:24:29Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T16:47:23Z",
+        "messageBody": "",
+        "messageHeadline": "Initialize project structure with stub modules",
+        "oid": "0a77dfcf477e64d5e9c94631cd9be752a1e768ba"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 7,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-08T16:47:59Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/Cinder-s-Webscraper/actions/runs/16149336036/job/45576428440",
+        "name": "build",
+        "startedAt": "2025-07-08T16:47:54Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-08T16:48:01Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/Cinder-s-Webscraper/actions/runs/16149335654/job/45576427325",
+        "name": "build",
+        "startedAt": "2025-07-08T16:47:54Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Create initial project scaffold",
+    "updatedAt": "2025-07-08T16:47:55Z",
+    "repository": "c1nderscript/Cinder-s-Webscraper"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T16:23:38Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T16:23:38Z",
+        "messageBody": "",
+        "messageHeadline": "Add Python workflow for tests",
+        "oid": "5256d56dd103246e64b1fe4dc8afeafdc9f0bf1e"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 6,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-08T16:23:51Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/Cinder-s-Webscraper/actions/runs/16148849032/job/45574740324",
+        "name": "build",
+        "startedAt": "2025-07-08T16:23:47Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-08T16:24:54Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/Cinder-s-Webscraper/actions/runs/16148848786/job/45574739687",
+        "name": "build",
+        "startedAt": "2025-07-08T16:24:37Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Add CI workflow",
+    "updatedAt": "2025-07-08T16:46:01Z",
+    "repository": "c1nderscript/Cinder-s-Webscraper"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T16:23:35Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T16:45:11Z",
+        "messageBody": "",
+        "messageHeadline": "Add MIT license and update README",
+        "oid": "10119346ff9cf4c6d36315a866a0e4322c816e89"
+      },
+      {
+        "authoredDate": "2025-07-08T16:45:49Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T16:45:49Z",
+        "messageBody": "",
+        "messageHeadline": "Fix tests to match updated config_manager API",
+        "oid": "e9441ff797cbdbcdfa9f16823befb04a1e6c189d"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 5,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Add MIT license",
+    "updatedAt": "2025-07-08T16:45:51Z",
+    "repository": "c1nderscript/Cinder-s-Webscraper"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T16:23:29Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T16:43:21Z",
+        "messageBody": "",
+        "messageHeadline": "Add basic schedule manager and CLI example",
+        "oid": "c4d763fd75d4ef9ad27f5183ab0de45fe37e0574"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 4,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Add scheduler manager and example",
+    "updatedAt": "2025-07-08T16:43:26Z",
+    "repository": "c1nderscript/Cinder-s-Webscraper"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T16:23:31Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T16:41:18Z",
+        "messageBody": "",
+        "messageHeadline": "Add basic modules and tests",
+        "oid": "2d95daaa0559388a7e7f8f4e684a0dba4df09270"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 3,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Add minimal modules and pytest setup",
+    "updatedAt": "2025-07-08T16:41:35Z",
+    "repository": "c1nderscript/Cinder-s-Webscraper"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T16:23:25Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T16:40:03Z",
+        "messageBody": "",
+        "messageHeadline": "Add config manager module with load and save helpers",
+        "oid": "88455748d408079c5f245b4311d561ed4fe52fbd"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 2,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Implement JSON configuration helpers",
+    "updatedAt": "2025-07-08T16:40:06Z",
+    "repository": "c1nderscript/Cinder-s-Webscraper"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T16:22:55Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T16:22:55Z",
+        "messageBody": "",
+        "messageHeadline": "Update README with overview and usage",
+        "oid": "a10ba02fdbb5052e996126cf9b9528aee3f864fd"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 1,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Update README overview, install steps, usage",
+    "updatedAt": "2025-07-08T16:38:48Z",
+    "repository": "c1nderscript/Cinder-s-Webscraper"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T18:15:19Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T18:15:19Z",
+        "messageBody": "",
+        "messageHeadline": "fix: add trailing newline in chat-bot Makefile",
+        "oid": "f0d4dad2016c8a35e6ccb13fb05fcac09d5d899a"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "MERGEABLE",
+    "number": 26,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Fix newline at end of chat-bot Makefile",
+    "updatedAt": "2025-07-08T18:15:23Z",
+    "repository": "c1nderscript/keffals.gg"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T18:13:15Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T18:13:15Z",
+        "messageBody": "",
+        "messageHeadline": "fix: add trailing newlines",
+        "oid": "98fc136fd2d5824afcafa40046eb3e86a1aaabfc"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "MERGEABLE",
+    "number": 25,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Fix missing newlines in overrustlelogs scripts",
+    "updatedAt": "2025-07-08T18:13:26Z",
+    "repository": "c1nderscript/keffals.gg"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T18:13:10Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T18:13:10Z",
+        "messageBody": "",
+        "messageHeadline": "Add root MIT license",
+        "oid": "ab0130ddcd31161802c502129e54411ada89ed03"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "MERGEABLE",
+    "number": 24,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Add root MIT license",
+    "updatedAt": "2025-07-08T18:13:13Z",
+    "repository": "c1nderscript/keffals.gg"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T18:13:07Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T18:13:07Z",
+        "messageBody": "",
+        "messageHeadline": "docs: update README structure",
+        "oid": "95de8dcb4043eb62d2f71351a042094ecd4c5028"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "MERGEABLE",
+    "number": 23,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Fix README structure list",
+    "updatedAt": "2025-07-08T18:13:10Z",
+    "repository": "c1nderscript/keffals.gg"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T17:58:36Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T17:58:36Z",
+        "messageBody": "",
+        "messageHeadline": "Rename agents.md to AGENTS.md",
+        "oid": "ca7e0381fb0731087ba5d049a211a005fded8060"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "MERGEABLE",
+    "number": 22,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Rename agents.md to AGENTS.md",
+    "updatedAt": "2025-07-08T17:58:39Z",
+    "repository": "c1nderscript/keffals.gg"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T17:55:18Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T17:55:18Z",
+        "messageBody": "",
+        "messageHeadline": "Update package metadata for keffals.gg",
+        "oid": "b52827c09515ccde7b99a7ba38da18414fbe6ac7"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "MERGEABLE",
+    "number": 21,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Update package metadata for keffals.gg",
+    "updatedAt": "2025-07-08T17:55:23Z",
+    "repository": "c1nderscript/keffals.gg"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T17:54:21Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T17:54:21Z",
+        "messageBody": "",
+        "messageHeadline": "Update README for keffals.gg",
+        "oid": "2e5f0af272302b6e5cec785e95915bd6df4e26a2"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "MERGEABLE",
+    "number": 20,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Update README for keffals.gg",
+    "updatedAt": "2025-07-08T17:54:26Z",
+    "repository": "c1nderscript/keffals.gg"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T17:54:16Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T17:54:16Z",
+        "messageBody": "",
+        "messageHeadline": "Add root license file",
+        "oid": "2d2b58c87df85cdc35872177e3ddd97df9071166"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "MERGEABLE",
+    "number": 19,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Add root license file",
+    "updatedAt": "2025-07-08T17:54:20Z",
+    "repository": "c1nderscript/keffals.gg"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T17:54:13Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T17:54:13Z",
+        "messageBody": "",
+        "messageHeadline": "Update subproject READMEs for keffals.gg",
+        "oid": "8c232ac1a328063780b4ef4a1dff4f84808d9ea2"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "MERGEABLE",
+    "number": 18,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Update subproject READMEs for keffals.gg",
+    "updatedAt": "2025-07-08T17:54:18Z",
+    "repository": "c1nderscript/keffals.gg"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T17:54:07Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T17:54:07Z",
+        "messageBody": "",
+        "messageHeadline": "Update package metadata for keffals.gg",
+        "oid": "a5ff4ba39c60f5cbcdc08fe50f1bed611eae35ae"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "MERGEABLE",
+    "number": 17,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Update package metadata for keffals.gg",
+    "updatedAt": "2025-07-08T17:54:10Z",
+    "repository": "c1nderscript/keffals.gg"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T17:53:37Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T17:53:37Z",
+        "messageBody": "",
+        "messageHeadline": "Update environment examples for keffals.gg",
+        "oid": "bf42ff7b04134250839f6fb895ad0869f9a2e88b"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "MERGEABLE",
+    "number": 16,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Update environment examples for keffals.gg",
+    "updatedAt": "2025-07-08T17:53:41Z",
+    "repository": "c1nderscript/keffals.gg"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T17:47:44Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T17:47:44Z",
+        "messageBody": "",
+        "messageHeadline": "Update workflow namespaces",
+        "oid": "118433ded28a3ecd132fef407131110db5595d4b"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "MERGEABLE",
+    "number": 15,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Update workflow namespaces",
+    "updatedAt": "2025-07-08T17:47:49Z",
+    "repository": "c1nderscript/keffals.gg"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T17:47:42Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T17:47:42Z",
+        "messageBody": "",
+        "messageHeadline": "Update workflow namespaces",
+        "oid": "b3a37dbf400da4639a3270279235a3add58b88d6"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "MERGEABLE",
+    "number": 14,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Update workflow namespaces",
+    "updatedAt": "2025-07-08T17:47:46Z",
+    "repository": "c1nderscript/keffals.gg"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T17:47:38Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T17:47:38Z",
+        "messageBody": "",
+        "messageHeadline": "Update workflow namespaces",
+        "oid": "c53d55520fbb69468716e1013ff4866175c2d30b"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "MERGEABLE",
+    "number": 13,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Update workflow namespaces",
+    "updatedAt": "2025-07-08T17:47:41Z",
+    "repository": "c1nderscript/keffals.gg"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T17:02:03Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T17:02:03Z",
+        "messageBody": "",
+        "messageHeadline": "Introduce root .editorconfig",
+        "oid": "c977df55279f91b24a12c388e221898e090f9d8c"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "MERGEABLE",
+    "number": 12,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Add root .editorconfig",
+    "updatedAt": "2025-07-08T17:02:06Z",
+    "repository": "c1nderscript/keffals.gg"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T17:01:54Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T17:01:54Z",
+        "messageBody": "",
+        "messageHeadline": "Add consolidated setup documentation",
+        "oid": "f7668e0261f276a20284ae4a85eb1f915df8da3e"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "MERGEABLE",
+    "number": 11,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Add consolidated setup documentation",
+    "updatedAt": "2025-07-08T17:01:58Z",
+    "repository": "c1nderscript/keffals.gg"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T17:01:45Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T17:01:45Z",
+        "messageBody": "",
+        "messageHeadline": "Update workflow namespaces",
+        "oid": "98c454e682aba35f9e3844b87efc170823bcb5eb"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "MERGEABLE",
+    "number": 10,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Update workflow namespaces",
+    "updatedAt": "2025-07-08T17:01:48Z",
+    "repository": "c1nderscript/keffals.gg"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T17:01:41Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T17:01:41Z",
+        "messageBody": "",
+        "messageHeadline": "Update environment examples for keffals.gg",
+        "oid": "0612b573ccdb23f02a425bdfa8f330fcc7102d6f"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "MERGEABLE",
+    "number": 9,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Update environment examples",
+    "updatedAt": "2025-07-08T17:01:46Z",
+    "repository": "c1nderscript/keffals.gg"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T17:01:34Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T17:01:34Z",
+        "messageBody": "",
+        "messageHeadline": "Update package metadata for keffals.gg",
+        "oid": "a9e6c826383c0dec43732f6501e11491a936f482"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "MERGEABLE",
+    "number": 8,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Update package metadata for keffals.gg",
+    "updatedAt": "2025-07-08T17:01:42Z",
+    "repository": "c1nderscript/keffals.gg"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T17:01:31Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T17:01:31Z",
+        "messageBody": "",
+        "messageHeadline": "Update subproject READMEs for keffals.gg",
+        "oid": "7b9718eb6585c914a83e759482d93cf99fa21d85"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "MERGEABLE",
+    "number": 7,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Update subproject READMEs for keffals.gg",
+    "updatedAt": "2025-07-08T17:01:41Z",
+    "repository": "c1nderscript/keffals.gg"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T16:55:54Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T16:55:54Z",
+        "messageBody": "",
+        "messageHeadline": "Update README for keffals.gg",
+        "oid": "6e0caa846b72a2882b065e8d60ae111b991b4d4b"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "MERGEABLE",
+    "number": 6,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Update README for keffals.gg",
+    "updatedAt": "2025-07-08T16:55:57Z",
+    "repository": "c1nderscript/keffals.gg"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T16:55:49Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T16:55:49Z",
+        "messageBody": "",
+        "messageHeadline": "Add root license file",
+        "oid": "22a3370af197399309f6d239da8ee201c015499b"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "MERGEABLE",
+    "number": 5,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Add root license file",
+    "updatedAt": "2025-07-08T16:55:54Z",
+    "repository": "c1nderscript/keffals.gg"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T16:55:11Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T16:55:11Z",
+        "messageBody": "",
+        "messageHeadline": "Rename agents.md to AGENTS.md",
+        "oid": "b398cfa01edaafecde947b05cd0dee749f3194b7"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "MERGEABLE",
+    "number": 4,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Rename agents.md to AGENTS.md",
+    "updatedAt": "2025-07-08T16:55:22Z",
+    "repository": "c1nderscript/keffals.gg"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T16:45:30Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T16:45:30Z",
+        "messageBody": "",
+        "messageHeadline": "Remove Rustla2 submodule references",
+        "oid": "55080d03f1ae4d5435bc6db87c07f926a3e91c0d"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "CONFLICTING",
+    "number": 3,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Remove old Rustla2 submodule files",
+    "updatedAt": "2025-07-08T16:54:31Z",
+    "repository": "c1nderscript/keffals.gg"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T16:29:50Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T16:29:50Z",
+        "messageBody": "",
+        "messageHeadline": "Add build-all script and update README",
+        "oid": "48717def462056fd552ad31665a839d03989e58a"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 2,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Add build-all script and update README",
+    "updatedAt": "2025-07-08T16:51:08Z",
+    "repository": "c1nderscript/keffals.gg"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T16:29:37Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T16:29:37Z",
+        "messageBody": "",
+        "messageHeadline": "Replace duplicated Rustla2 with symlink",
+        "oid": "0a26f1e6959dcee7a8c2f8deedee61eae238d1cc"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 1,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Replace duplicated Rustla2 with symlink",
+    "updatedAt": "2025-07-08T16:51:00Z",
+    "repository": "c1nderscript/keffals.gg"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T16:36:30Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T16:36:30Z",
+        "messageBody": "",
+        "messageHeadline": "Use config embedding dimensions for Redis index",
+        "oid": "b1fcbefb0c0b36a1ed07a0e44523efc57ad7243c"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 11,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T16:36:48Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/Custom-MCP-Server/actions/runs/16122683003/job/45492165459",
+        "name": "build",
+        "startedAt": "2025-07-07T16:36:42Z",
+        "status": "COMPLETED",
+        "workflowName": "CI"
+      }
+    ],
+    "title": "Update RedisStore to use config embedding dimensions",
+    "updatedAt": "2025-07-07T16:41:39Z",
+    "repository": "c1nderscript/Custom-MCP-Server"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T16:36:23Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T16:36:23Z",
+        "messageBody": "",
+        "messageHeadline": "Use relative path for warp-mcp-server",
+        "oid": "199f907337c8fd7f5cdc0bbe4be11616e042afc8"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 10,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T16:36:37Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/Custom-MCP-Server/actions/runs/16122680578/job/45492157304",
+        "name": "build",
+        "startedAt": "2025-07-07T16:36:33Z",
+        "status": "COMPLETED",
+        "workflowName": "CI"
+      }
+    ],
+    "title": "Fix server path in configs",
+    "updatedAt": "2025-07-07T16:40:59Z",
+    "repository": "c1nderscript/Custom-MCP-Server"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T16:35:05Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T16:35:05Z",
+        "messageBody": "",
+        "messageHeadline": "Fix tests to use redis URL from config",
+        "oid": "bc6721b7684146fe44e406545275ec1b069a1a5b"
+      },
+      {
+        "authoredDate": "2025-07-07T16:41:30Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T16:41:30Z",
+        "messageBody": "…itignore",
+        "messageHeadline": "Merge branch 'main' into codex/delete-.env-from-history-and-update-.g…",
+        "oid": "6e7c637391351d82e38aada5244f760d5929e31b"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 9,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T16:42:52Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/Custom-MCP-Server/actions/runs/16122780754/job/45492498709",
+        "name": "build",
+        "startedAt": "2025-07-07T16:41:40Z",
+        "status": "COMPLETED",
+        "workflowName": "CI"
+      }
+    ],
+    "title": "Remove sensitive .env and update examples",
+    "updatedAt": "2025-07-08T17:17:02Z",
+    "repository": "c1nderscript/Custom-MCP-Server"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T16:34:59Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T16:34:59Z",
+        "messageBody": "",
+        "messageHeadline": "Fix JSON syntax",
+        "oid": "167d9e89b5ec0a6243eb7d3c919e8cb369ce7d5a"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 8,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T16:35:15Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/Custom-MCP-Server/actions/runs/16122652309/job/45492062737",
+        "name": "build",
+        "startedAt": "2025-07-07T16:35:08Z",
+        "status": "COMPLETED",
+        "workflowName": "CI"
+      }
+    ],
+    "title": "Fix JSON comma",
+    "updatedAt": "2025-07-07T16:40:39Z",
+    "repository": "c1nderscript/Custom-MCP-Server"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T16:34:47Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T16:34:47Z",
+        "messageBody": "",
+        "messageHeadline": "Remove unused submodule directories and document",
+        "oid": "85efb244257d203551cd592918fe9bf023ff89c0"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 7,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T16:37:23Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/Custom-MCP-Server/actions/runs/16122648606/job/45492050339",
+        "name": "build",
+        "startedAt": "2025-07-07T16:34:57Z",
+        "status": "COMPLETED",
+        "workflowName": "CI"
+      }
+    ],
+    "title": "Clean up empty folders and ignore build artifacts",
+    "updatedAt": "2025-07-07T16:40:30Z",
+    "repository": "c1nderscript/Custom-MCP-Server"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T16:29:47Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T16:29:47Z",
+        "messageBody": "",
+        "messageHeadline": "Remove unused submodule directories and document",
+        "oid": "f5ae19ac67fb4b319962a741913989a543875f8d"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 6,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T16:32:18Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/Custom-MCP-Server/actions/runs/16122548728/job/45491717167",
+        "name": "build",
+        "startedAt": "2025-07-07T16:29:57Z",
+        "status": "COMPLETED",
+        "workflowName": "CI"
+      }
+    ],
+    "title": "Clean up empty folders and ignore build artifacts",
+    "updatedAt": "2025-07-07T16:40:21Z",
+    "repository": "c1nderscript/Custom-MCP-Server"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T16:29:12Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T16:29:12Z",
+        "messageBody": "",
+        "messageHeadline": "Update tests for new RedisStore signature",
+        "oid": "02312fe60edca99aeafa2e774dc70242d02d6f24"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 5,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T16:29:29Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/Custom-MCP-Server/actions/runs/16122536224/job/45491675204",
+        "name": "build",
+        "startedAt": "2025-07-07T16:29:22Z",
+        "status": "COMPLETED",
+        "workflowName": "CI"
+      }
+    ],
+    "title": "Update tests for RedisStore constructor",
+    "updatedAt": "2025-07-07T16:40:10Z",
+    "repository": "c1nderscript/Custom-MCP-Server"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T16:28:59Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T16:28:59Z",
+        "messageBody": "",
+        "messageHeadline": "Add MIT license",
+        "oid": "ec170af6ee87c775b08276b70892162b29642d86"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 4,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T16:29:14Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/Custom-MCP-Server/actions/runs/16122531981/job/45491659799",
+        "name": "build",
+        "startedAt": "2025-07-07T16:29:09Z",
+        "status": "COMPLETED",
+        "workflowName": "CI"
+      }
+    ],
+    "title": "Add MIT license",
+    "updatedAt": "2025-07-07T16:29:26Z",
+    "repository": "c1nderscript/Custom-MCP-Server"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T16:28:53Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T16:28:53Z",
+        "messageBody": "",
+        "messageHeadline": "Update tests for new RedisStore signature",
+        "oid": "c6ab8d8c3fa603909dab9dedb2fd6ade698a786a"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 3,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T16:29:11Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/Custom-MCP-Server/actions/runs/16122529939/job/45491653507",
+        "name": "build",
+        "startedAt": "2025-07-07T16:29:04Z",
+        "status": "COMPLETED",
+        "workflowName": "CI"
+      }
+    ],
+    "title": "Update tests for RedisStore constructor",
+    "updatedAt": "2025-07-07T16:29:17Z",
+    "repository": "c1nderscript/Custom-MCP-Server"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-04T01:54:27Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-04T01:54:27Z",
+        "messageBody": "",
+        "messageHeadline": "docs: clarify health check and contribute steps",
+        "oid": "8fa84f3a2d57bef97378198fd766577380822e88"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 2,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-04T01:56:30Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/Custom-MCP-Server/actions/runs/16064129424/job/45335403220",
+        "name": "build",
+        "startedAt": "2025-07-04T01:54:36Z",
+        "status": "COMPLETED",
+        "workflowName": "CI"
+      }
+    ],
+    "title": "Improve documentation for quick start and contributions",
+    "updatedAt": "2025-07-04T11:21:16Z",
+    "repository": "c1nderscript/Custom-MCP-Server"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-04T01:20:59Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-04T01:20:59Z",
+        "messageBody": "",
+        "messageHeadline": "Add config file support, tests, CI, and Redis security options",
+        "oid": "44eb6cd6c97c0df781afaa1be8f968de38159b21"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 1,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-04T01:23:02Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/Custom-MCP-Server/actions/runs/16063737925/job/45334365012",
+        "name": "build",
+        "startedAt": "2025-07-04T01:21:08Z",
+        "status": "COMPLETED",
+        "workflowName": "CI"
+      }
+    ],
+    "title": "Add config file support, tests, and CI",
+    "updatedAt": "2025-07-04T01:21:20Z",
+    "repository": "c1nderscript/Custom-MCP-Server"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T17:43:35Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T17:43:35Z",
+        "messageBody": "",
+        "messageHeadline": "Add requirements file and update validation instructions",
+        "oid": "cc3358abe82c6765bc9b195a93d7e5e45eaa6237"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "CONFLICTING",
+    "number": 19,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Add requirements file and update README",
+    "updatedAt": "2025-07-08T17:43:40Z",
+    "repository": "c1nderscript/c1nder-codex"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T17:43:27Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T17:43:27Z",
+        "messageBody": "",
+        "messageHeadline": "Add License section to README",
+        "oid": "96d90d3358848d1c68a5f69b39852d3721b5857a"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "CONFLICTING",
+    "number": 18,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Add License section",
+    "updatedAt": "2025-07-08T17:43:31Z",
+    "repository": "c1nderscript/c1nder-codex"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T17:43:23Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T17:43:23Z",
+        "messageBody": "",
+        "messageHeadline": "Add frontmatter validation workflow",
+        "oid": "f62f6bcf2a1a2d074a07f3890012bd9ffb7761cd"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "MERGEABLE",
+    "number": 17,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-08T17:43:39Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/c1nder-codex/actions/runs/16150471976/job/45580224450",
+        "name": "validate",
+        "startedAt": "2025-07-08T17:43:33Z",
+        "status": "COMPLETED",
+        "workflowName": "Validate Frontmatter"
+      }
+    ],
+    "title": "Add frontmatter validation workflow",
+    "updatedAt": "2025-07-08T17:43:26Z",
+    "repository": "c1nderscript/c1nder-codex"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T17:08:42Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T17:08:42Z",
+        "messageBody": "",
+        "messageHeadline": "Clean README",
+        "oid": "863f029cf8397790a7386cc2546dd61b23407fb3"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "CONFLICTING",
+    "number": 16,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Fix README formatting",
+    "updatedAt": "2025-07-08T17:08:46Z",
+    "repository": "c1nderscript/c1nder-codex"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T17:08:39Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T17:08:39Z",
+        "messageBody": "",
+        "messageHeadline": "Add requirements and update validator instructions",
+        "oid": "c3ae37aeed2d995162077f6678b442cc93b5bab3"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "CONFLICTING",
+    "number": 15,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Add PyYAML requirement and update README",
+    "updatedAt": "2025-07-08T17:08:42Z",
+    "repository": "c1nderscript/c1nder-codex"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T17:08:34Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T17:08:34Z",
+        "messageBody": "",
+        "messageHeadline": "docs: revise unverifiable statistics",
+        "oid": "f1ecd74ef15bf51ee5b900894ac15d8d69957129"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "MERGEABLE",
+    "number": 14,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Fix unverifiable stats",
+    "updatedAt": "2025-07-08T17:08:37Z",
+    "repository": "c1nderscript/c1nder-codex"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-08T17:08:30Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-08T17:08:30Z",
+        "messageBody": "",
+        "messageHeadline": "chore: add frontmatter validation workflow",
+        "oid": "8222497f76ac0cece73257f8305b6e21425a937e"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "MERGEABLE",
+    "number": 13,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-08T17:08:47Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/c1nder-codex/actions/runs/16149768546/job/45577891278",
+        "name": "validate",
+        "startedAt": "2025-07-08T17:08:39Z",
+        "status": "COMPLETED",
+        "workflowName": "Validate Frontmatter"
+      }
+    ],
+    "title": "Add front matter validation workflow",
+    "updatedAt": "2025-07-08T17:08:33Z",
+    "repository": "c1nderscript/c1nder-codex"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T17:00:32Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T17:00:32Z",
+        "messageBody": "",
+        "messageHeadline": "Add requirements file and update README",
+        "oid": "7b7a0667affed827cbd3cc5b655d6d9d31c32fb5"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "CONFLICTING",
+    "number": 12,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Add requirements file and update README",
+    "updatedAt": "2025-07-07T17:00:35Z",
+    "repository": "c1nderscript/c1nder-codex"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T17:00:26Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T17:00:26Z",
+        "messageBody": "",
+        "messageHeadline": "Remove leftover markers from README",
+        "oid": "46e65e249f0ffa84353eba90f9941dc8619506cf"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "CONFLICTING",
+    "number": 11,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Clean up README",
+    "updatedAt": "2025-07-07T17:00:29Z",
+    "repository": "c1nderscript/c1nder-codex"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T17:00:16Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T17:00:16Z",
+        "messageBody": "",
+        "messageHeadline": "Add GitHub Action for frontmatter validation",
+        "oid": "aa51ea6215368e7c5a0e1cf2ae4b71c2301fa59d"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "MERGEABLE",
+    "number": 10,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T17:00:33Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/c1nder-codex/actions/runs/16123155078/job/45493734919",
+        "name": "validate",
+        "startedAt": "2025-07-07T17:00:27Z",
+        "status": "COMPLETED",
+        "workflowName": "Validate Frontmatter"
+      }
+    ],
+    "title": "Add workflow for validating templates",
+    "updatedAt": "2025-07-07T17:00:19Z",
+    "repository": "c1nderscript/c1nder-codex"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T17:00:12Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T17:00:12Z",
+        "messageBody": "",
+        "messageHeadline": "Add requirements and update validation docs",
+        "oid": "2546d4414d89fdfbd4cd51eee09926f856160cf7"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "CONFLICTING",
+    "number": 9,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Add requirements and front matter docs",
+    "updatedAt": "2025-07-07T17:00:15Z",
+    "repository": "c1nderscript/c1nder-codex"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T16:52:01Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T16:52:01Z",
+        "messageBody": "",
+        "messageHeadline": "Clean up README structure",
+        "oid": "1c69c69ee10d511971e4129a6cc1fc6355ec088b"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 8,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Fix README cleanup",
+    "updatedAt": "2025-07-07T16:58:35Z",
+    "repository": "c1nderscript/c1nder-codex"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T16:37:18Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T16:37:18Z",
+        "messageBody": "",
+        "messageHeadline": "docs: adjust agents.md",
+        "oid": "e6bd6e6af3931ccc526a1180ad66614e2252dc79"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 7,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "docs: adjust agents.md",
+    "updatedAt": "2025-07-07T16:42:47Z",
+    "repository": "c1nderscript/c1nder-codex"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T16:37:14Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T16:37:14Z",
+        "messageBody": "",
+        "messageHeadline": "docs: add CONTRIBUTING guide",
+        "oid": "ff2f7e92e87d850f5e0b580f117e355fc7c2c61b"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 6,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "docs: add CONTRIBUTING guide",
+    "updatedAt": "2025-07-07T16:42:55Z",
+    "repository": "c1nderscript/c1nder-codex"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T16:37:04Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T16:37:04Z",
+        "messageBody": "",
+        "messageHeadline": "docs: add template index",
+        "oid": "2e69914b3a0474634427e0f0a8eff1d1e49e7b37"
+      },
+      {
+        "authoredDate": "2025-07-07T16:43:15Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T16:43:15Z",
+        "messageBody": "",
+        "messageHeadline": "Merge branch 'main' into codex/add-template-index-to-readme.md",
+        "oid": "ae77c4565b84358c6f69a44d83516a81eb858211"
+      },
+      {
+        "authoredDate": "2025-07-07T16:44:00Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T16:44:00Z",
+        "messageBody": "",
+        "messageHeadline": "Merge branch 'main' into codex/add-template-index-to-readme.md",
+        "oid": "9dd91e8fb1a88da54fd248ee3a65ef91e3a2fffc"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 5,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Add template index",
+    "updatedAt": "2025-07-07T16:44:33Z",
+    "repository": "c1nderscript/c1nder-codex"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T16:37:00Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T16:37:00Z",
+        "messageBody": "",
+        "messageHeadline": "docs: add TOC to guides",
+        "oid": "6530c725ad8ae9c206ed3db9e4bae17b284afd49"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 4,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "docs: add TOC to guides",
+    "updatedAt": "2025-07-07T16:43:34Z",
+    "repository": "c1nderscript/c1nder-codex"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T16:36:54Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T16:36:54Z",
+        "messageBody": "",
+        "messageHeadline": "feat: add front matter validator",
+        "oid": "e52fae60b59adde2381c824893d13477b7d05509"
+      },
+      {
+        "authoredDate": "2025-07-07T16:42:37Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T16:42:37Z",
+        "messageBody": "",
+        "messageHeadline": "Merge branch 'main' into codex/add-front-matter-validator-script",
+        "oid": "d5eed177d944873b9e04b136d60654566bc9669b"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 3,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "feat: add front matter validator",
+    "updatedAt": "2025-07-07T16:43:24Z",
+    "repository": "c1nderscript/c1nder-codex"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T16:36:48Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T16:36:48Z",
+        "messageBody": "",
+        "messageHeadline": "docs: add MIT license",
+        "oid": "944b48328d63b0ad005945b060702352956706c0"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 2,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Add MIT license",
+    "updatedAt": "2025-07-07T16:42:17Z",
+    "repository": "c1nderscript/c1nder-codex"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T16:36:38Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T16:36:38Z",
+        "messageBody": "",
+        "messageHeadline": "docs: enrich README",
+        "oid": "6bf718a37d45a4f75ffe58116e25c3ddbdb6d6d3"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 1,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "docs: enrich README",
+    "updatedAt": "2025-07-07T16:42:08Z",
+    "repository": "c1nderscript/c1nder-codex"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T16:35:08Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T16:35:08Z",
+        "messageBody": "",
+        "messageHeadline": "Add orchestrate runtime test",
+        "oid": "c8a3d2482c2bbe5ef4b55d3995912126a81b7962"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 35,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T16:35:39Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16122655066/job/45492071640",
+        "name": "build (3.9)",
+        "startedAt": "2025-07-07T16:35:27Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T16:35:39Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16122655066/job/45492071646",
+        "name": "build (3.10)",
+        "startedAt": "2025-07-07T16:35:28Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T16:35:38Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16122655066/job/45492071660",
+        "name": "build (3.11)",
+        "startedAt": "2025-07-07T16:35:27Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Add runtime test for orchestrate_all",
+    "updatedAt": "2025-07-07T16:35:17Z",
+    "repository": "c1nderscript/C1nder-s-Reading-Buddy"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T16:27:51Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T16:27:51Z",
+        "messageBody": "",
+        "messageHeadline": "Add strict mode to convert_to_kindle.sh",
+        "oid": "dfc9731b6f412f058b739859533a6490905cd53e"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 34,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T16:28:15Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16122509519/job/45491586139",
+        "name": "build (3.9)",
+        "startedAt": "2025-07-07T16:28:02Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T16:28:17Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16122509519/job/45491586127",
+        "name": "build (3.10)",
+        "startedAt": "2025-07-07T16:28:02Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T16:28:17Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16122509519/job/45491586133",
+        "name": "build (3.11)",
+        "startedAt": "2025-07-07T16:28:02Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Fix convert_to_kindle.sh strict mode",
+    "updatedAt": "2025-07-07T16:29:57Z",
+    "repository": "c1nderscript/C1nder-s-Reading-Buddy"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T16:27:44Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T16:27:44Z",
+        "messageBody": "",
+        "messageHeadline": "Add python shebang to main scripts",
+        "oid": "a38a87cd3b289547c3ac7eb4936e53dd30d3706c"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 33,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T16:28:12Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16122507021/job/45491577665",
+        "name": "build (3.9)",
+        "startedAt": "2025-07-07T16:27:56Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T16:28:09Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16122507021/job/45491577672",
+        "name": "build (3.10)",
+        "startedAt": "2025-07-07T16:27:57Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T16:28:07Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16122507021/job/45491577661",
+        "name": "build (3.11)",
+        "startedAt": "2025-07-07T16:27:55Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Add python shebang to scripts",
+    "updatedAt": "2025-07-07T16:28:41Z",
+    "repository": "c1nderscript/C1nder-s-Reading-Buddy"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T16:27:38Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T16:27:38Z",
+        "messageBody": "",
+        "messageHeadline": "Add log functionality to ingest script",
+        "oid": "7e84c711979321cfd52b93c8c058e3987bbaa8db"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 32,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T16:28:05Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16122504657/job/45491569844",
+        "name": "build (3.9)",
+        "startedAt": "2025-07-07T16:27:52Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T16:28:05Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16122504657/job/45491569869",
+        "name": "build (3.10)",
+        "startedAt": "2025-07-07T16:27:51Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T16:28:04Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16122504657/job/45491569849",
+        "name": "build (3.11)",
+        "startedAt": "2025-07-07T16:27:51Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Implement logging in ingest script",
+    "updatedAt": "2025-07-07T16:28:33Z",
+    "repository": "c1nderscript/C1nder-s-Reading-Buddy"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T16:27:30Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T16:27:30Z",
+        "messageBody": "",
+        "messageHeadline": "Add FONT_PATH env variable",
+        "oid": "3f00bddf6ea6918972b2fa57bee9e51f08b9ce33"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 31,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T16:27:52Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16122501840/job/45491559447",
+        "name": "build (3.9)",
+        "startedAt": "2025-07-07T16:27:39Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T16:27:54Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16122501840/job/45491559454",
+        "name": "build (3.10)",
+        "startedAt": "2025-07-07T16:27:40Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T16:27:52Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16122501840/job/45491559446",
+        "name": "build (3.11)",
+        "startedAt": "2025-07-07T16:27:39Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Add configurable font path",
+    "updatedAt": "2025-07-07T16:28:24Z",
+    "repository": "c1nderscript/C1nder-s-Reading-Buddy"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T16:27:23Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T16:27:23Z",
+        "messageBody": "",
+        "messageHeadline": "Ignore ledger and converted files",
+        "oid": "7cc549988cf8c32e151b432d346b7bbe04188197"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 30,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T16:27:50Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16122499756/job/45491552783",
+        "name": "build (3.9)",
+        "startedAt": "2025-07-07T16:27:36Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T16:27:45Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16122499756/job/45491552752",
+        "name": "build (3.10)",
+        "startedAt": "2025-07-07T16:27:35Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T16:27:46Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16122499756/job/45491552743",
+        "name": "build (3.11)",
+        "startedAt": "2025-07-07T16:27:36Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Remove converted files from repo",
+    "updatedAt": "2025-07-07T16:28:16Z",
+    "repository": "c1nderscript/C1nder-s-Reading-Buddy"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T16:27:14Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T16:27:14Z",
+        "messageBody": "",
+        "messageHeadline": "Add strict error handling to merge script",
+        "oid": "910ff2b03ed726b30fee408e14c17c9b709b4ce2"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 29,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T16:27:44Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16122497784/job/45491547417",
+        "name": "build (3.9)",
+        "startedAt": "2025-07-07T16:27:35Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T16:27:46Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16122497784/job/45491547415",
+        "name": "build (3.10)",
+        "startedAt": "2025-07-07T16:27:35Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T16:27:47Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16122497784/job/45491547421",
+        "name": "build (3.11)",
+        "startedAt": "2025-07-07T16:27:35Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Add pipefail strictness to merge script",
+    "updatedAt": "2025-07-07T16:28:06Z",
+    "repository": "c1nderscript/C1nder-s-Reading-Buddy"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T16:18:39Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T16:18:39Z",
+        "messageBody": "",
+        "messageHeadline": "Ignore Python bytecode",
+        "oid": "350a34a2fdaa6e823009b210f3d5c55e04b077d9"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 28,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T16:19:07Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16122323370/job/45490964163",
+        "name": "build (3.9)",
+        "startedAt": "2025-07-07T16:18:55Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T16:19:05Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16122323370/job/45490964157",
+        "name": "build (3.10)",
+        "startedAt": "2025-07-07T16:18:54Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T16:19:10Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16122323370/job/45490964156",
+        "name": "build (3.11)",
+        "startedAt": "2025-07-07T16:18:55Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Add EPUB generation utility",
+    "updatedAt": "2025-07-07T16:19:09Z",
+    "repository": "c1nderscript/C1nder-s-Reading-Buddy"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T15:37:17Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T15:37:17Z",
+        "messageBody": "",
+        "messageHeadline": "fix FPDF unicode error",
+        "oid": "0dcf27d0f76f74181579ed405b39997ccf70ca91"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 27,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T15:37:53Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16121424027/job/45487916821",
+        "name": "build (3.9)",
+        "startedAt": "2025-07-07T15:37:39Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T15:37:52Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16121424027/job/45487916790",
+        "name": "build (3.10)",
+        "startedAt": "2025-07-07T15:37:39Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T15:37:50Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16121424027/job/45487916811",
+        "name": "build (3.11)",
+        "startedAt": "2025-07-07T15:37:39Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Fix FPDF Unicode error",
+    "updatedAt": "2025-07-07T15:37:30Z",
+    "repository": "c1nderscript/C1nder-s-Reading-Buddy"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T15:31:42Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T15:31:42Z",
+        "messageBody": "",
+        "messageHeadline": "Skip empty PDFs in merge",
+        "oid": "4c9a4d25d5b79bea8cd406d12580f99f00ecad53"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 26,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T15:32:17Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16121291068/job/45487486199",
+        "name": "build (3.9)",
+        "startedAt": "2025-07-07T15:32:03Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T15:32:16Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16121291068/job/45487486202",
+        "name": "build (3.10)",
+        "startedAt": "2025-07-07T15:32:03Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T15:32:15Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16121291068/job/45487486191",
+        "name": "build (3.11)",
+        "startedAt": "2025-07-07T15:32:03Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Fix PDF merge crash on empty files",
+    "updatedAt": "2025-07-07T15:32:21Z",
+    "repository": "c1nderscript/C1nder-s-Reading-Buddy"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T15:25:20Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T15:25:20Z",
+        "messageBody": "",
+        "messageHeadline": "Use pandoc to markdown with FPDF",
+        "oid": "e067a3b0018d0e5b18245fc591bbf1dfbce80a3f"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 25,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T15:25:42Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16121144814/job/45486982051",
+        "name": "build (3.9)",
+        "startedAt": "2025-07-07T15:25:30Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T15:25:40Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16121144814/job/45486981974",
+        "name": "build (3.10)",
+        "startedAt": "2025-07-07T15:25:29Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T15:25:39Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16121144814/job/45486981976",
+        "name": "build (3.11)",
+        "startedAt": "2025-07-07T15:25:29Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Fix pdf conversion using FPDF",
+    "updatedAt": "2025-07-07T15:25:35Z",
+    "repository": "c1nderscript/C1nder-s-Reading-Buddy"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T15:15:58Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T15:15:58Z",
+        "messageBody": "",
+        "messageHeadline": "Add support for additional formats",
+        "oid": "6097a7707cdf0f21fe06830915e0ef6c2993a64d"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 24,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T15:16:18Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16120926088/job/45486255377",
+        "name": "build (3.9)",
+        "startedAt": "2025-07-07T15:16:09Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T15:16:22Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16120926088/job/45486255374",
+        "name": "build (3.10)",
+        "startedAt": "2025-07-07T15:16:12Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T15:16:20Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16120926088/job/45486255370",
+        "name": "build (3.11)",
+        "startedAt": "2025-07-07T15:16:10Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Extend file format support",
+    "updatedAt": "2025-07-07T15:16:16Z",
+    "repository": "c1nderscript/C1nder-s-Reading-Buddy"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T15:09:23Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T15:09:23Z",
+        "messageBody": "",
+        "messageHeadline": "Document unicode chunking",
+        "oid": "97896c656ed0f11a351b1c6ffc5ec6c4491f5d6e"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 23,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T15:09:50Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16120772618/job/45485728640",
+        "name": "build (3.9)",
+        "startedAt": "2025-07-07T15:09:36Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T15:09:54Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16120772618/job/45485728635",
+        "name": "build (3.10)",
+        "startedAt": "2025-07-07T15:09:37Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T15:09:49Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16120772618/job/45485728628",
+        "name": "build (3.11)",
+        "startedAt": "2025-07-07T15:09:37Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Fix Unicode in PDF chunks",
+    "updatedAt": "2025-07-07T15:09:51Z",
+    "repository": "c1nderscript/C1nder-s-Reading-Buddy"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T15:04:44Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T15:04:44Z",
+        "messageBody": "",
+        "messageHeadline": "Persist output folder",
+        "oid": "5d2d7a60e2c65c465534333359963926d073625b"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 22,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T15:05:03Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16120655610/job/45485336361",
+        "name": "build (3.9)",
+        "startedAt": "2025-07-07T15:04:53Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T15:05:06Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16120655610/job/45485336342",
+        "name": "build (3.10)",
+        "startedAt": "2025-07-07T15:04:53Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T15:05:02Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16120655610/job/45485336334",
+        "name": "build (3.11)",
+        "startedAt": "2025-07-07T15:04:53Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Persist output directory config",
+    "updatedAt": "2025-07-07T15:04:58Z",
+    "repository": "c1nderscript/C1nder-s-Reading-Buddy"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T14:58:33Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T14:58:33Z",
+        "messageBody": "",
+        "messageHeadline": "Enhance configure script with font installation",
+        "oid": "6d441900df0db6cd40c3f1fc34ad7582db58de32"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 21,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T14:58:53Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16120499575/job/45484802345",
+        "name": "build (3.9)",
+        "startedAt": "2025-07-07T14:58:43Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T14:58:58Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16120499575/job/45484802361",
+        "name": "build (3.10)",
+        "startedAt": "2025-07-07T14:58:45Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T14:58:52Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16120499575/job/45484802360",
+        "name": "build (3.11)",
+        "startedAt": "2025-07-07T14:58:42Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Enhance configuration script",
+    "updatedAt": "2025-07-07T14:58:47Z",
+    "repository": "c1nderscript/C1nder-s-Reading-Buddy"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T14:50:08Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T14:50:08Z",
+        "messageBody": "",
+        "messageHeadline": "Add Unicode font support",
+        "oid": "bc72e44351dd1476817f4e5b1a631a0836cbcf65"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 20,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T14:50:27Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16120300167/job/45484119223",
+        "name": "build (3.9)",
+        "startedAt": "2025-07-07T14:50:18Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T14:50:29Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16120300167/job/45484119185",
+        "name": "build (3.10)",
+        "startedAt": "2025-07-07T14:50:19Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T14:50:37Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16120300167/job/45484119204",
+        "name": "build (3.11)",
+        "startedAt": "2025-07-07T14:50:20Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Use Unicode font for Markdown conversion",
+    "updatedAt": "2025-07-07T14:50:45Z",
+    "repository": "c1nderscript/C1nder-s-Reading-Buddy"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T14:40:23Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T14:40:23Z",
+        "messageBody": "",
+        "messageHeadline": "Handle Markdown conversion without LaTeX",
+        "oid": "bad16b45c894b8c79739b61212a6501ffc392f79"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 19,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T14:40:51Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16120067116/job/45483318077",
+        "name": "build (3.9)",
+        "startedAt": "2025-07-07T14:40:35Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T14:40:43Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16120067116/job/45483318083",
+        "name": "build (3.10)",
+        "startedAt": "2025-07-07T14:40:33Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T14:40:43Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16120067116/job/45483318089",
+        "name": "build (3.11)",
+        "startedAt": "2025-07-07T14:40:34Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Handle Markdown conversion without LaTeX",
+    "updatedAt": "2025-07-07T14:43:31Z",
+    "repository": "c1nderscript/C1nder-s-Reading-Buddy"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T14:30:36Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T14:30:36Z",
+        "messageBody": "",
+        "messageHeadline": "Add interactive PDF processing",
+        "oid": "2666a981986a3430c10361e80776b56a06f71102"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 18,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T14:30:58Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16119829650/job/45482500790",
+        "name": "build (3.9)",
+        "startedAt": "2025-07-07T14:30:47Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T14:30:59Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16119829650/job/45482500780",
+        "name": "build (3.10)",
+        "startedAt": "2025-07-07T14:30:47Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T14:31:01Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16119829650/job/45482500806",
+        "name": "build (3.11)",
+        "startedAt": "2025-07-07T14:30:45Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Interactive PDF merger",
+    "updatedAt": "2025-07-07T14:30:57Z",
+    "repository": "c1nderscript/C1nder-s-Reading-Buddy"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T14:20:38Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T14:20:38Z",
+        "messageBody": "",
+        "messageHeadline": "Add cross-reference comment and new runtime test",
+        "oid": "2565664b2f9167bc871455039fdf84f667bc29a3"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 17,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T14:20:59Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16119584692/job/45481672812",
+        "name": "build (3.9)",
+        "startedAt": "2025-07-07T14:20:48Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T14:21:01Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16119584692/job/45481672803",
+        "name": "build (3.10)",
+        "startedAt": "2025-07-07T14:20:49Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T14:21:01Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16119584692/job/45481672809",
+        "name": "build (3.11)",
+        "startedAt": "2025-07-07T14:20:49Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Add comment and runtime test for ingest script",
+    "updatedAt": "2025-07-07T14:20:48Z",
+    "repository": "c1nderscript/C1nder-s-Reading-Buddy"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T14:12:31Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T14:12:31Z",
+        "messageBody": "",
+        "messageHeadline": "Handle both pypdf and PyPDF2 imports",
+        "oid": "a846e7d407f46f9d9dd0e3001f08b070d2900c54"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 16,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T14:12:55Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16119384283/job/45481001560",
+        "name": "build (3.9)",
+        "startedAt": "2025-07-07T14:12:41Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T14:12:59Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16119384283/job/45481001573",
+        "name": "build (3.10)",
+        "startedAt": "2025-07-07T14:12:43Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T14:12:57Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16119384283/job/45481001553",
+        "name": "build (3.11)",
+        "startedAt": "2025-07-07T14:12:45Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Handle pypdf and PyPDF2 imports gracefully",
+    "updatedAt": "2025-07-07T14:12:41Z",
+    "repository": "c1nderscript/C1nder-s-Reading-Buddy"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T14:05:44Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T14:05:44Z",
+        "messageBody": "",
+        "messageHeadline": "Add configure.sh for venv setup and update docs",
+        "oid": "338916d7244c3f188299eca2a15822961cb6c7d4"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 15,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T14:06:09Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16119218010/job/45480430314",
+        "name": "build (3.9)",
+        "startedAt": "2025-07-07T14:05:57Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T14:06:10Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16119218010/job/45480430322",
+        "name": "build (3.10)",
+        "startedAt": "2025-07-07T14:05:56Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T14:06:05Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16119218010/job/45480430272",
+        "name": "build (3.11)",
+        "startedAt": "2025-07-07T14:05:55Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Add configure.sh for venv setup",
+    "updatedAt": "2025-07-07T14:05:58Z",
+    "repository": "c1nderscript/C1nder-s-Reading-Buddy"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T13:56:19Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T13:56:19Z",
+        "messageBody": "",
+        "messageHeadline": "Update README with installation and usage instructions",
+        "oid": "0fb2386528d472005a99a69777177ff2508863c9"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 14,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T13:56:38Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16118988969/job/45479628553",
+        "name": "build (3.9)",
+        "startedAt": "2025-07-07T13:56:28Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T13:56:43Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16118988969/job/45479628534",
+        "name": "build (3.10)",
+        "startedAt": "2025-07-07T13:56:30Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T13:56:40Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16118988969/job/45479628567",
+        "name": "build (3.11)",
+        "startedAt": "2025-07-07T13:56:29Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Improve README for PDF merger pipeline",
+    "updatedAt": "2025-07-07T13:56:32Z",
+    "repository": "c1nderscript/C1nder-s-Reading-Buddy"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-07T13:50:21Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-07T13:50:21Z",
+        "messageBody": "Implement orchestrate_all.py for converting, merging, and chunking PDFs per folder. Update README and requirements.",
+        "messageHeadline": "Add PDF merging workflow",
+        "oid": "24b97f2fc755ed6f162f6606bf9a79ac5eb3ed56"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 13,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T13:50:44Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16118842061/job/45479145090",
+        "name": "build (3.9)",
+        "startedAt": "2025-07-07T13:50:32Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T13:50:44Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16118842061/job/45479145082",
+        "name": "build (3.10)",
+        "startedAt": "2025-07-07T13:50:34Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-07T13:50:48Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16118842061/job/45479145086",
+        "name": "build (3.11)",
+        "startedAt": "2025-07-07T13:50:32Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Add PDF merging pipeline",
+    "updatedAt": "2025-07-07T13:50:42Z",
+    "repository": "c1nderscript/C1nder-s-Reading-Buddy"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-04T13:41:25Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-04T13:41:25Z",
+        "messageBody": "",
+        "messageHeadline": "Check for pandoc before converting",
+        "oid": "205407339ad9880129426bccff9824f7cb37b1eb"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 12,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-04T13:42:24Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16075129109/job/45368435227",
+        "name": "build (3.9)",
+        "startedAt": "2025-07-04T13:42:13Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-04T13:42:22Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16075129109/job/45368435239",
+        "name": "build (3.10)",
+        "startedAt": "2025-07-04T13:42:12Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-04T13:42:19Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16075129109/job/45368435230",
+        "name": "build (3.11)",
+        "startedAt": "2025-07-04T13:42:10Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Add pandoc check",
+    "updatedAt": "2025-07-04T13:44:56Z",
+    "repository": "c1nderscript/C1nder-s-Reading-Buddy"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-04T13:40:28Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-04T13:40:28Z",
+        "messageBody": "",
+        "messageHeadline": "Add executable tests and document test run",
+        "oid": "be1889d9437e77b957071d5992a5c4a80b843bb1"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 11,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-04T13:41:11Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16075111896/job/45368378839",
+        "name": "build (3.9)",
+        "startedAt": "2025-07-04T13:41:01Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-04T13:41:15Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16075111896/job/45368378842",
+        "name": "build (3.10)",
+        "startedAt": "2025-07-04T13:41:02Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-04T13:41:09Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16075111896/job/45368378847",
+        "name": "build (3.11)",
+        "startedAt": "2025-07-04T13:41:00Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Add simple pytest and docs for running tests",
+    "updatedAt": "2025-07-04T13:44:48Z",
+    "repository": "c1nderscript/C1nder-s-Reading-Buddy"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-04T13:40:24Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-04T13:40:24Z",
+        "messageBody": "",
+        "messageHeadline": "Add ledger tracking and skip processed files",
+        "oid": "091cf5792183ecd3e38f8e55f971327baa208836"
+      },
+      {
+        "authoredDate": "2025-07-04T13:47:17Z",
+        "authors": [
+          {
+            "email": "c1nderscript@users.noreply.github.com",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-04T13:47:17Z",
+        "messageBody": "…r.json-format-and-update-ingest-process\n\n# Conflicts:\n#\tREADME.md",
+        "messageHeadline": "Merge remote-tracking branch 'origin/main' into codex/implement-ledge…",
+        "oid": "cc19b722d3a879f9910c9a4df4ba2b8f1934319b"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 10,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-04T13:47:33Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16075233954/job/45368765331",
+        "name": "build (3.9)",
+        "startedAt": "2025-07-04T13:47:24Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-04T13:47:35Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16075233954/job/45368765348",
+        "name": "build (3.10)",
+        "startedAt": "2025-07-04T13:47:25Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-04T13:47:35Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16075233954/job/45368765344",
+        "name": "build (3.11)",
+        "startedAt": "2025-07-04T13:47:24Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Add ledger for deduplication",
+    "updatedAt": "2025-07-04T13:47:22Z",
+    "repository": "c1nderscript/C1nder-s-Reading-Buddy"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-04T13:40:09Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-04T13:40:09Z",
+        "messageBody": "",
+        "messageHeadline": "Update README references and cleanup",
+        "oid": "bda6c13757a20a561fc1ad9f7d603369550f76d5"
+      },
+      {
+        "authoredDate": "2025-07-04T13:43:30Z",
+        "authors": [
+          {
+            "email": "c1nderscript@users.noreply.github.com",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-04T13:43:30Z",
+        "messageBody": "…eferences-and-improve-documentation\n\n# Conflicts:\n#\tREADME.md",
+        "messageHeadline": "Merge remote-tracking branch 'origin/main' into codex/update-script-r…",
+        "oid": "cd74857dafb13789d7e234039f23b778d3d6d685"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 9,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-04T13:44:10Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16075166472/job/45368551875",
+        "name": "build (3.9)",
+        "startedAt": "2025-07-04T13:44:00Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-04T13:44:11Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16075166472/job/45368551869",
+        "name": "build (3.10)",
+        "startedAt": "2025-07-04T13:44:00Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-04T13:44:12Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16075166472/job/45368551858",
+        "name": "build (3.11)",
+        "startedAt": "2025-07-04T13:43:59Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Fix README script references and cleanup",
+    "updatedAt": "2025-07-04T13:43:36Z",
+    "repository": "c1nderscript/C1nder-s-Reading-Buddy"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-04T13:40:01Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-04T13:40:01Z",
+        "messageBody": "",
+        "messageHeadline": "Use BASE_DIR for script paths",
+        "oid": "dc77c0b4ee60c81456d9ba7abc66c7c32906cab0"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 8,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-04T13:40:26Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16075102891/job/45368351507",
+        "name": "build (3.9)",
+        "startedAt": "2025-07-04T13:40:17Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-04T13:40:26Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16075102891/job/45368351517",
+        "name": "build (3.10)",
+        "startedAt": "2025-07-04T13:40:17Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-04T13:40:26Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/C1nder-s-Reading-Buddy/actions/runs/16075102891/job/45368351512",
+        "name": "build (3.11)",
+        "startedAt": "2025-07-04T13:40:17Z",
+        "status": "COMPLETED",
+        "workflowName": "Python package"
+      }
+    ],
+    "title": "Use BASE_DIR for helper scripts",
+    "updatedAt": "2025-07-04T13:40:48Z",
+    "repository": "c1nderscript/C1nder-s-Reading-Buddy"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-04T13:35:47Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-04T13:35:47Z",
+        "messageBody": "",
+        "messageHeadline": "Parameterize script paths with repo-root variables",
+        "oid": "b4f67e9706cee928d975b3a1f37544058fb076bd"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "CONFLICTING",
+    "number": 7,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Use repo-root variables in scripts",
+    "updatedAt": "2025-07-04T13:40:06Z",
+    "repository": "c1nderscript/C1nder-s-Reading-Buddy"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-04T13:31:53Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-04T13:31:53Z",
+        "messageBody": "",
+        "messageHeadline": "Parameterize script paths with repo-root variables",
+        "oid": "d662fd02be2588721295385fd1ff43693ef5925e"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "CONFLICTING",
+    "number": 6,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Use repo-root variables in scripts",
+    "updatedAt": "2025-07-04T13:40:10Z",
+    "repository": "c1nderscript/C1nder-s-Reading-Buddy"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-04T11:47:37Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-04T11:47:37Z",
+        "messageBody": "",
+        "messageHeadline": "Remove repeated roadmap section",
+        "oid": "65c7aa51429eb62691a0572d79981cb2c8482687"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 6,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Remove duplicated roadmap section",
+    "updatedAt": "2025-07-04T11:47:51Z",
+    "repository": "c1nderscript/Agents.md-Builder"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-04T11:47:31Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-04T11:47:31Z",
+        "messageBody": "",
+        "messageHeadline": "Add integration roadmap and update docs",
+        "oid": "766266d997fc8a69f7b03ad34943e2b6633d84fb"
+      },
+      {
+        "authoredDate": "2025-07-04T11:55:00Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-04T11:55:00Z",
+        "messageBody": "…ocument",
+        "messageHeadline": "Merge branch 'main' into codex/condense-new.md-content-into-roadmap-d…",
+        "oid": "0530ef3a12858a463e4473165f7e40147ec683fa"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 5,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Add integration roadmap and update docs",
+    "updatedAt": "2025-07-04T11:55:13Z",
+    "repository": "c1nderscript/Agents.md-Builder"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-04T11:47:18Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-04T11:47:18Z",
+        "messageBody": "",
+        "messageHeadline": "docs: add directive glossary",
+        "oid": "976f86296cf32c523c2d5aa535ac373029210263"
+      },
+      {
+        "authoredDate": "2025-07-04T11:51:22Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-04T11:51:22Z",
+        "messageBody": "",
+        "messageHeadline": "Merge branch 'main' into codex/document-directives-and-provide-examples",
+        "oid": "df615a9c4d45d75ae9d37b7f5f6e4c649dc2a5fb"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 4,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Add directive glossary",
+    "updatedAt": "2025-07-04T11:51:31Z",
+    "repository": "c1nderscript/Agents.md-Builder"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-04T11:44:52Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-04T11:44:52Z",
+        "messageBody": "",
+        "messageHeadline": "Rename integration roadmap and update docs",
+        "oid": "9eee659bd58a4fe5243050cf136242819e37782b"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 3,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Add integration roadmap and update docs",
+    "updatedAt": "2025-07-04T11:49:18Z",
+    "repository": "c1nderscript/Agents.md-Builder"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-04T11:34:59Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-04T11:34:59Z",
+        "messageBody": "",
+        "messageHeadline": "Integrate new agent guidelines",
+        "oid": "7fb59d95a567ceeeed70c899bc440e3d1608c0c2"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 2,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Incorporate new setup guidelines",
+    "updatedAt": "2025-07-04T11:35:56Z",
+    "repository": "c1nderscript/Agents.md-Builder"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-04T11:20:57Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-04T11:20:57Z",
+        "messageBody": "",
+        "messageHeadline": "Streamline knowledge base",
+        "oid": "9ac9fcc765e7f6d4306cf5bff8f218bf0ab10399"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 1,
+    "reviewDecision": "",
+    "statusCheckRollup": [],
+    "title": "Streamline knowledgebase docs",
+    "updatedAt": "2025-07-04T11:22:55Z",
+    "repository": "c1nderscript/Agents.md-Builder"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-03T23:36:53Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-03T23:36:53Z",
+        "messageBody": "",
+        "messageHeadline": "Fix install directory creation arguments",
+        "oid": "41f8ed8e750680e7076ad5f9b8ad676d7ec8bc40"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 15,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T23:37:12Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16062499345/job/45331067794",
+        "name": "test (3.8)",
+        "startedAt": "2025-07-03T23:37:02Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T23:37:10Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16062499345/job/45331067796",
+        "name": "test (3.9)",
+        "startedAt": "2025-07-03T23:37:03Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T23:37:10Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16062499345/job/45331067798",
+        "name": "test (3.10)",
+        "startedAt": "2025-07-03T23:37:03Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T23:37:10Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16062499345/job/45331067795",
+        "name": "test (3.11)",
+        "startedAt": "2025-07-03T23:37:03Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T23:37:10Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16062499345/job/45331067797",
+        "name": "test (3.12)",
+        "startedAt": "2025-07-03T23:37:02Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      }
+    ],
+    "title": "Fix install arguments",
+    "updatedAt": "2025-07-03T23:37:05Z",
+    "repository": "c1nderscript/mobile-developer-git"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-03T23:26:11Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-03T23:26:11Z",
+        "messageBody": "",
+        "messageHeadline": "Remove legacy script and improve tests",
+        "oid": "9e37bc6da5ffeff28463154165e5a289c479bf87"
+      },
+      {
+        "authoredDate": "2025-07-03T23:27:11Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-03T23:27:11Z",
+        "messageBody": "",
+        "messageHeadline": "Merge branch 'main' into codex/fix-and-clean-up-codebase",
+        "oid": "bba8274df4f89fe3df4a9dd7c610f339777bb270"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 14,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T23:27:28Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16062395170/job/45330778131",
+        "name": "test (3.8)",
+        "startedAt": "2025-07-03T23:27:20Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T23:27:29Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16062395170/job/45330778123",
+        "name": "test (3.9)",
+        "startedAt": "2025-07-03T23:27:20Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T23:27:29Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16062395170/job/45330778126",
+        "name": "test (3.10)",
+        "startedAt": "2025-07-03T23:27:20Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T23:27:29Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16062395170/job/45330778119",
+        "name": "test (3.11)",
+        "startedAt": "2025-07-03T23:27:20Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T23:27:25Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16062395170/job/45330778122",
+        "name": "test (3.12)",
+        "startedAt": "2025-07-03T23:27:19Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      }
+    ],
+    "title": "Refactor test runner and cleanup",
+    "updatedAt": "2025-07-03T23:27:22Z",
+    "repository": "c1nderscript/mobile-developer-git"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-03T23:20:56Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-03T23:20:56Z",
+        "messageBody": "",
+        "messageHeadline": "fix: allow tests to run without venv python",
+        "oid": "a7f16c61a4e52848e56ff226842091f9877d408e"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 13,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T23:21:34Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16062322474/job/45330589751",
+        "name": "test (3.8)",
+        "startedAt": "2025-07-03T23:21:06Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T23:21:28Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16062322474/job/45330589740",
+        "name": "test (3.9)",
+        "startedAt": "2025-07-03T23:21:05Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T23:21:24Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16062322474/job/45330589752",
+        "name": "test (3.10)",
+        "startedAt": "2025-07-03T23:21:06Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T23:21:35Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16062322474/job/45330589763",
+        "name": "test (3.11)",
+        "startedAt": "2025-07-03T23:21:05Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T23:21:21Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16062322474/job/45330589753",
+        "name": "test (3.12)",
+        "startedAt": "2025-07-03T23:21:06Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      }
+    ],
+    "title": "Fix tests without venv and remove unused script",
+    "updatedAt": "2025-07-03T23:21:08Z",
+    "repository": "c1nderscript/mobile-developer-git"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-03T23:11:11Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-03T23:11:11Z",
+        "messageBody": "",
+        "messageHeadline": "Clean up scripts",
+        "oid": "66603b0f73182532d976b8bc71c2fb2167d84571"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 12,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T23:11:53Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16062211734/job/45330288602",
+        "name": "test (3.8)",
+        "startedAt": "2025-07-03T23:11:21Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T23:11:39Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16062211734/job/45330288596",
+        "name": "test (3.9)",
+        "startedAt": "2025-07-03T23:11:21Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T23:11:40Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16062211734/job/45330288599",
+        "name": "test (3.10)",
+        "startedAt": "2025-07-03T23:11:22Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T23:11:39Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16062211734/job/45330288600",
+        "name": "test (3.11)",
+        "startedAt": "2025-07-03T23:11:21Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T23:11:38Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16062211734/job/45330288597",
+        "name": "test (3.12)",
+        "startedAt": "2025-07-03T23:11:21Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      }
+    ],
+    "title": "Fix script lint issues",
+    "updatedAt": "2025-07-03T23:11:23Z",
+    "repository": "c1nderscript/mobile-developer-git"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-03T22:36:54Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-03T22:36:54Z",
+        "messageBody": "",
+        "messageHeadline": "Rename misnamed ODS test script",
+        "oid": "a68175dd448b8a4cc340ed3e961b55a919df0277"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 11,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T22:37:28Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061803954/job/45329123125",
+        "name": "test (3.8)",
+        "startedAt": "2025-07-03T22:37:04Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T22:37:20Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061803954/job/45329123115",
+        "name": "test (3.9)",
+        "startedAt": "2025-07-03T22:37:04Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T22:37:21Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061803954/job/45329123131",
+        "name": "test (3.10)",
+        "startedAt": "2025-07-03T22:37:04Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T22:37:18Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061803954/job/45329123128",
+        "name": "test (3.11)",
+        "startedAt": "2025-07-03T22:37:04Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T22:37:21Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061803954/job/45329123119",
+        "name": "test (3.12)",
+        "startedAt": "2025-07-03T22:37:04Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      }
+    ],
+    "title": "Rename misnamed script",
+    "updatedAt": "2025-07-03T22:37:18Z",
+    "repository": "c1nderscript/mobile-developer-git"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-03T22:21:31Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-03T22:21:31Z",
+        "messageBody": "",
+        "messageHeadline": "fix install script to use venv python",
+        "oid": "852b2f1123109a5fdfb6b62da49eb4bdea9de457"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 10,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T22:22:00Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061610215/job/45328570038",
+        "name": "test (3.8)",
+        "startedAt": "2025-07-03T22:21:41Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T22:21:54Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061610215/job/45328570037",
+        "name": "test (3.9)",
+        "startedAt": "2025-07-03T22:21:40Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T22:21:57Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061610215/job/45328570041",
+        "name": "test (3.10)",
+        "startedAt": "2025-07-03T22:21:42Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T22:22:02Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061610215/job/45328570039",
+        "name": "test (3.11)",
+        "startedAt": "2025-07-03T22:21:41Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T22:21:56Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061610215/job/45328570049",
+        "name": "test (3.12)",
+        "startedAt": "2025-07-03T22:21:41Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      }
+    ],
+    "title": "Fix install script for venv modules",
+    "updatedAt": "2025-07-03T22:21:46Z",
+    "repository": "c1nderscript/mobile-developer-git"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-03T22:16:15Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-03T22:16:15Z",
+        "messageBody": "",
+        "messageHeadline": "Update workflow to artifact v4",
+        "oid": "736d185fadb77c64574b6f9da4fa1966d9099930"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 9,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T22:16:44Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061540445/job/45328369390",
+        "name": "test (3.8)",
+        "startedAt": "2025-07-03T22:16:25Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T22:16:43Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061540445/job/45328369391",
+        "name": "test (3.9)",
+        "startedAt": "2025-07-03T22:16:25Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T22:16:37Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061540445/job/45328369396",
+        "name": "test (3.10)",
+        "startedAt": "2025-07-03T22:16:24Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T22:16:40Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061540445/job/45328369387",
+        "name": "test (3.11)",
+        "startedAt": "2025-07-03T22:16:24Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T22:16:38Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061540445/job/45328369398",
+        "name": "test (3.12)",
+        "startedAt": "2025-07-03T22:16:25Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      }
+    ],
+    "title": "Fix artifact step in CI",
+    "updatedAt": "2025-07-03T22:16:37Z",
+    "repository": "c1nderscript/mobile-developer-git"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-03T22:10:26Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-03T22:10:26Z",
+        "messageBody": "",
+        "messageHeadline": "Fix env setup order",
+        "oid": "23ad07954e83f02a4d04a773e7002bcc45fd1574"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 8,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T22:10:39Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061464409/job/45328148919",
+        "name": "test (3.8)",
+        "startedAt": "2025-07-03T22:10:36Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T22:10:38Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061464409/job/45328148929",
+        "name": "test (3.9)",
+        "startedAt": "2025-07-03T22:10:36Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T22:10:38Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061464409/job/45328148901",
+        "name": "test (3.10)",
+        "startedAt": "2025-07-03T22:10:36Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T22:10:39Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061464409/job/45328148916",
+        "name": "test (3.11)",
+        "startedAt": "2025-07-03T22:10:36Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T22:10:39Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061464409/job/45328148899",
+        "name": "test (3.12)",
+        "startedAt": "2025-07-03T22:10:36Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      }
+    ],
+    "title": "Fix env order for configure",
+    "updatedAt": "2025-07-03T22:11:43Z",
+    "repository": "c1nderscript/mobile-developer-git"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-03T22:01:36Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-03T22:01:36Z",
+        "messageBody": "",
+        "messageHeadline": "Remove root repos.ods and main-repo symlink",
+        "oid": "a4c929a8f254b6fd2dac656798949fb6950c0237"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 7,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T22:01:49Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061340068/job/45327768277",
+        "name": "test (3.8)",
+        "startedAt": "2025-07-03T22:01:45Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T22:01:49Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061340068/job/45327768285",
+        "name": "test (3.9)",
+        "startedAt": "2025-07-03T22:01:46Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T22:01:49Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061340068/job/45327768287",
+        "name": "test (3.10)",
+        "startedAt": "2025-07-03T22:01:46Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T22:01:48Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061340068/job/45327768281",
+        "name": "test (3.11)",
+        "startedAt": "2025-07-03T22:01:45Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T22:01:48Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061340068/job/45327768284",
+        "name": "test (3.12)",
+        "startedAt": "2025-07-03T22:01:45Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      }
+    ],
+    "title": "Refactor to use repos.ods from Main folder",
+    "updatedAt": "2025-07-03T22:01:50Z",
+    "repository": "c1nderscript/mobile-developer-git"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-03T21:53:05Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-03T21:53:05Z",
+        "messageBody": "",
+        "messageHeadline": "docs: expand Main README",
+        "oid": "6479f7bf937c04ed1f5a1eb292ea3108cf0e1751"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 6,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T21:53:18Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061235261/job/45327436948",
+        "name": "test (3.8)",
+        "startedAt": "2025-07-03T21:53:15Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T21:53:17Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061235261/job/45327436947",
+        "name": "test (3.9)",
+        "startedAt": "2025-07-03T21:53:15Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T21:53:17Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061235261/job/45327436966",
+        "name": "test (3.10)",
+        "startedAt": "2025-07-03T21:53:14Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T21:53:17Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061235261/job/45327436963",
+        "name": "test (3.11)",
+        "startedAt": "2025-07-03T21:53:15Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T21:53:16Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061235261/job/45327436955",
+        "name": "test (3.12)",
+        "startedAt": "2025-07-03T21:53:14Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      }
+    ],
+    "title": "Update Main README formatting",
+    "updatedAt": "2025-07-03T22:01:58Z",
+    "repository": "c1nderscript/mobile-developer-git"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-03T21:51:21Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-03T21:51:21Z",
+        "messageBody": "",
+        "messageHeadline": "fix: add newline at end of root README",
+        "oid": "cc085ca8df069e66068f67945aaf66a66bda8fc7"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 5,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T21:51:32Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061212442/job/45327368137",
+        "name": "test (3.8)",
+        "startedAt": "2025-07-03T21:51:29Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T21:51:33Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061212442/job/45327368130",
+        "name": "test (3.9)",
+        "startedAt": "2025-07-03T21:51:29Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T21:51:32Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061212442/job/45327368146",
+        "name": "test (3.10)",
+        "startedAt": "2025-07-03T21:51:29Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T21:51:32Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061212442/job/45327368132",
+        "name": "test (3.11)",
+        "startedAt": "2025-07-03T21:51:29Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T21:51:32Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061212442/job/45327368136",
+        "name": "test (3.12)",
+        "startedAt": "2025-07-03T21:51:29Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      }
+    ],
+    "title": "fix: add newline at end of root README",
+    "updatedAt": "2025-07-03T21:52:15Z",
+    "repository": "c1nderscript/mobile-developer-git"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-03T21:50:34Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-03T21:50:34Z",
+        "messageBody": "",
+        "messageHeadline": "Install openpyxl via pip",
+        "oid": "cb78e2d11643ce4a6fd3cd2578b1f57e76e3cc06"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 4,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T21:50:47Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061202893/job/45327338779",
+        "name": "test (3.8)",
+        "startedAt": "2025-07-03T21:50:44Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T21:50:45Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061202893/job/45327338792",
+        "name": "test (3.9)",
+        "startedAt": "2025-07-03T21:50:42Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T21:50:45Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061202893/job/45327338782",
+        "name": "test (3.10)",
+        "startedAt": "2025-07-03T21:50:43Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T21:50:46Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061202893/job/45327338794",
+        "name": "test (3.11)",
+        "startedAt": "2025-07-03T21:50:42Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T21:50:47Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16061202893/job/45327338813",
+        "name": "test (3.12)",
+        "startedAt": "2025-07-03T21:50:43Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      }
+    ],
+    "title": "Update package install list",
+    "updatedAt": "2025-07-03T21:50:47Z",
+    "repository": "c1nderscript/mobile-developer-git"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-03T21:33:58Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-03T21:33:58Z",
+        "messageBody": "",
+        "messageHeadline": "Add automatic sortcode generator",
+        "oid": "5d593c9d06d35b7148f0ffa4066283ccc10fd177"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 3,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T21:36:09Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16060974504/job/45326725882",
+        "name": "test (3.8)",
+        "startedAt": "2025-07-03T21:36:06Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T21:36:09Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16060974504/job/45326725876",
+        "name": "test (3.9)",
+        "startedAt": "2025-07-03T21:36:06Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T21:36:09Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16060974504/job/45326725906",
+        "name": "test (3.10)",
+        "startedAt": "2025-07-03T21:36:06Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T21:36:10Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16060974504/job/45326725877",
+        "name": "test (3.11)",
+        "startedAt": "2025-07-03T21:36:07Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T21:36:09Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16060974504/job/45326725890",
+        "name": "test (3.12)",
+        "startedAt": "2025-07-03T21:36:06Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      }
+    ],
+    "title": "Add automatic sortcode generator",
+    "updatedAt": "2025-07-03T21:41:28Z",
+    "repository": "c1nderscript/mobile-developer-git"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-03T21:26:59Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-03T21:26:59Z",
+        "messageBody": "",
+        "messageHeadline": "Add install wrapper script",
+        "oid": "38f528b88aa9eef06a6bec4444c04df75a46db26"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 2,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T21:34:32Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16060870408/job/45326651677",
+        "name": "test (3.8)",
+        "startedAt": "2025-07-03T21:34:28Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T21:34:31Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16060870408/job/45326651691",
+        "name": "test (3.9)",
+        "startedAt": "2025-07-03T21:34:28Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T21:34:31Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16060870408/job/45326651660",
+        "name": "test (3.10)",
+        "startedAt": "2025-07-03T21:34:28Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T21:34:32Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16060870408/job/45326651682",
+        "name": "test (3.11)",
+        "startedAt": "2025-07-03T21:34:29Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T21:34:31Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16060870408/job/45326651681",
+        "name": "test (3.12)",
+        "startedAt": "2025-07-03T21:34:28Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      }
+    ],
+    "title": "Add install script",
+    "updatedAt": "2025-07-03T21:40:56Z",
+    "repository": "c1nderscript/mobile-developer-git"
+  },
+  {
+    "author": {
+      "id": "U_kgDODP_3kQ",
+      "is_bot": false,
+      "login": "c1nderscript",
+      "name": ""
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-03T21:26:43Z",
+        "authors": [
+          {
+            "email": "c1nderscript@proton.me",
+            "id": "U_kgDODP_3kQ",
+            "login": "c1nderscript",
+            "name": "c1nderscript"
+          }
+        ],
+        "committedDate": "2025-07-03T21:26:43Z",
+        "messageBody": "",
+        "messageHeadline": "Add install wrapper script",
+        "oid": "3c66f79d30d4bb004b9bb29f2ee6c2e5e35bc929"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 1,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T21:26:55Z",
+        "conclusion": "FAILURE",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16060866513/job/45326313657",
+        "name": "test (3.8)",
+        "startedAt": "2025-07-03T21:26:52Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T21:26:56Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16060866513/job/45326313667",
+        "name": "test (3.9)",
+        "startedAt": "2025-07-03T21:26:53Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T21:26:57Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16060866513/job/45326313720",
+        "name": "test (3.10)",
+        "startedAt": "2025-07-03T21:26:54Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T21:26:55Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16060866513/job/45326313655",
+        "name": "test (3.11)",
+        "startedAt": "2025-07-03T21:26:52Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-03T21:26:56Z",
+        "conclusion": "CANCELLED",
+        "detailsUrl": "https://github.com/c1nderscript/mobile-developer-git/actions/runs/16060866513/job/45326313661",
+        "name": "test (3.12)",
+        "startedAt": "2025-07-03T21:26:53Z",
+        "status": "COMPLETED",
+        "workflowName": "MobileGit Regression Tests"
+      }
+    ],
+    "title": "Add install script",
+    "updatedAt": "2025-07-03T21:41:11Z",
+    "repository": "c1nderscript/mobile-developer-git"
+  },
+  {
+    "author": {
+      "is_bot": true,
+      "login": "app/dependabot"
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-02T11:22:47Z",
+        "authors": [
+          {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "id": "MDM6Qm90NDk2OTkzMzM=",
+            "login": "dependabot[bot]",
+            "name": "dependabot[bot]"
+          }
+        ],
+        "committedDate": "2025-07-02T11:22:47Z",
+        "messageBody": "Bumps [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) from 9.1.0 to 10.1.5.\n- [Release notes](https://github.com/prettier/eslint-config-prettier/releases)\n- [Changelog](https://github.com/prettier/eslint-config-prettier/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/prettier/eslint-config-prettier/compare/v9.1.0...v10.1.5)\n\n---\nupdated-dependencies:\n- dependency-name: eslint-config-prettier\n  dependency-version: 10.1.5\n  dependency-type: direct:development\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "messageHeadline": "Bump eslint-config-prettier from 9.1.0 to 10.1.5",
+        "oid": "4b0d3116696930c6441adf547cd608ded9f50099"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 2,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-02T11:23:17Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/Discord-API-Docs/actions/runs/16023768476/job/45206655027",
+        "name": "Check Markdown Tables",
+        "startedAt": "2025-07-02T11:22:59Z",
+        "status": "COMPLETED",
+        "workflowName": "Verify Docs Formatting"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-02T11:23:33Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/Discord-API-Docs/actions/runs/16023768475/job/45206655070",
+        "name": "Lint",
+        "startedAt": "2025-07-02T11:23:12Z",
+        "status": "COMPLETED",
+        "workflowName": "ci"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-02T11:23:26Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/Discord-API-Docs/actions/runs/16023768475/job/45206655077",
+        "name": "Check Links",
+        "startedAt": "2025-07-02T11:23:13Z",
+        "status": "COMPLETED",
+        "workflowName": "ci"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-02T11:23:37Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/Discord-API-Docs/actions/runs/16023768475/job/45206655097",
+        "name": "Validate mdx",
+        "startedAt": "2025-07-02T11:23:17Z",
+        "status": "COMPLETED",
+        "workflowName": "ci"
+      }
+    ],
+    "title": "Bump eslint-config-prettier from 9.1.0 to 10.1.5",
+    "updatedAt": "2025-07-02T11:22:49Z",
+    "repository": "c1nderscript/Discord-API-Docs"
+  },
+  {
+    "author": {
+      "is_bot": true,
+      "login": "app/dependabot"
+    },
+    "commits": [
+      {
+        "authoredDate": "2025-07-02T11:22:41Z",
+        "authors": [
+          {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "id": "MDM6Qm90NDk2OTkzMzM=",
+            "login": "dependabot[bot]",
+            "name": "dependabot[bot]"
+          }
+        ],
+        "committedDate": "2025-07-02T11:22:41Z",
+        "messageBody": "Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 20.12.12 to 24.0.10.\n- [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)\n- [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)\n\n---\nupdated-dependencies:\n- dependency-name: \"@types/node\"\n  dependency-version: 24.0.10\n  dependency-type: direct:development\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "messageHeadline": "Bump @types/node from 20.12.12 to 24.0.10",
+        "oid": "c7b94a24a91a3b7391db7a2352870b2e4dc1973c"
+      }
+    ],
+    "isDraft": false,
+    "mergeable": "UNKNOWN",
+    "number": 1,
+    "reviewDecision": "",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-02T11:23:09Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/Discord-API-Docs/actions/runs/16023766889/job/45206650167",
+        "name": "Check Markdown Tables",
+        "startedAt": "2025-07-02T11:22:51Z",
+        "status": "COMPLETED",
+        "workflowName": "Verify Docs Formatting"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-02T11:23:16Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/Discord-API-Docs/actions/runs/16023766877/job/45206650210",
+        "name": "Lint",
+        "startedAt": "2025-07-02T11:22:51Z",
+        "status": "COMPLETED",
+        "workflowName": "ci"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-02T11:23:07Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/Discord-API-Docs/actions/runs/16023766877/job/45206650231",
+        "name": "Check Links",
+        "startedAt": "2025-07-02T11:22:50Z",
+        "status": "COMPLETED",
+        "workflowName": "ci"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2025-07-02T11:23:12Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/c1nderscript/Discord-API-Docs/actions/runs/16023766877/job/45206650223",
+        "name": "Validate mdx",
+        "startedAt": "2025-07-02T11:22:50Z",
+        "status": "COMPLETED",
+        "workflowName": "ci"
+      }
+    ],
+    "title": "Bump @types/node from 20.12.12 to 24.0.10",
+    "updatedAt": "2025-07-02T11:22:43Z",
+    "repository": "c1nderscript/Discord-API-Docs"
+  }
+]
