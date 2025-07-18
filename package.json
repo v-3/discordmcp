@@ -21,7 +21,8 @@
     "@modelcontextprotocol/sdk": "^1.2.0",
     "discord.js": "^14.14.1",
     "dotenv": "^16.4.7",
-    "zod": "^3.22.4"
+    "zod": "^3.22.4",
+    "zod-to-json-schema": "^3.24.6"
   },
   "devDependencies": {
     "@types/node": "^20.11.16",
