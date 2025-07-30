@@ -2,6 +2,8 @@
 
 A Model Context Protocol (MCP) server that enables LLMs to interact with Discord channels, allowing them to send and read messages through Discord's API. Using this server, LLMs like Claude can directly interact with Discord channels while maintaining user control and security.
 
+[![MCPHub.com Badge](https://mcphub.com/api/mcp-servers/v-3/discordmcp/badge)](https://mcphub.com/mcp-servers/v-3/discordmcp)
+
 ## Features
 
 - Send messages to Discord channels
