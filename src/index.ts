@@ -200,6 +200,10 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
           author: msg.author.tag,
           content: msg.content,
           timestamp: msg.createdAt.toISOString(),
+          attachments: Array.from(msg.attachments.values()).map(a => ({
+            name: a.name,
+            url: a.url,
+          })),
         }));
 
         return {
