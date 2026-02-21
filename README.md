@@ -2,6 +2,10 @@
 
 A Model Context Protocol (MCP) server that enables LLMs to interact with Discord channels, allowing them to send and read messages through Discord's API. Using this server, LLMs like Claude can directly interact with Discord channels while maintaining user control and security.
 
+<a href="https://glama.ai/mcp/servers/@v-3/discordmcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@v-3/discordmcp/badge" alt="Discord Server MCP server" />
+</a>
+
 ## Features
 
 - Send messages to Discord channels
