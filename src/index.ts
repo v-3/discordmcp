@@ -22,15 +22,23 @@ const client = new Client({
 
 // Helper function to find a guild by name or ID
 async function findGuild(guildIdentifier?: string) {
+  // Hydrate full guild objects so g.name is never "undefined"
+  const cachedGuilds = Array.from(client.guilds.cache.values());
+  const fullGuilds = await Promise.all(
+    cachedGuilds.map(async (g) => (g.name ? g : await g.fetch())),
+  );
+
   if (!guildIdentifier) {
-    // If no guild specified and bot is only in one guild, use that
-    if (client.guilds.cache.size === 1) {
-      return client.guilds.cache.first()!;
+    if (fullGuilds.length === 0) {
+      throw new Error("Bot is not a member of any Discord servers.");
     }
-    // List available guilds
-    const guildList = Array.from(client.guilds.cache.values())
-      .map(g => `"${g.name}"`).join(', ');
-    throw new Error(`Bot is in multiple servers. Please specify server name or ID. Available servers: ${guildList}`);
+    if (fullGuilds.length === 1) {
+      return fullGuilds[0];
+    }
+    const guildList = fullGuilds
+      .map((g) => `"${g.name}" (ID: ${g.id})`)
+      .join(", ");
+    throw new Error(`Bot is in multiple servers. Pass the server name or ID in the "server" parameter. Available servers: ${guildList}`);
   }
 
   // Try to fetch by ID first
@@ -38,21 +46,21 @@ async function findGuild(guildIdentifier?: string) {
     const guild = await client.guilds.fetch(guildIdentifier);
     if (guild) return guild;
   } catch {
-    // If ID fetch fails, search by name
-    const guilds = client.guilds.cache.filter(
-      g => g.name.toLowerCase() === guildIdentifier.toLowerCase()
+    // If ID fetch fails, search by name safely
+    const matching = fullGuilds.filter(
+      g => g.name?.toLowerCase() === guildIdentifier.toLowerCase()
     );
     
-    if (guilds.size === 0) {
-      const availableGuilds = Array.from(client.guilds.cache.values())
-        .map(g => `"${g.name}"`).join(', ');
+    if (matching.length === 0) {
+      const availableGuilds = fullGuilds
+        .map(g => `"${g.name}" (ID: ${g.id})`).join(', ');
       throw new Error(`Server "${guildIdentifier}" not found. Available servers: ${availableGuilds}`);
     }
-    if (guilds.size > 1) {
-      const guildList = guilds.map(g => `${g.name} (ID: ${g.id})`).join(', ');
+    if (matching.length > 1) {
+      const guildList = matching.map(g => `${g.name} (ID: ${g.id})`).join(', ');
       throw new Error(`Multiple servers found with name "${guildIdentifier}": ${guildList}. Please specify the server ID.`);
     }
-    return guilds.first()!;
+    return matching[0];
   }
   throw new Error(`Server "${guildIdentifier}" not found`);
 }
@@ -177,8 +185,8 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
   try {
     switch (name) {
       case "send-message": {
-        const { channel: channelIdentifier, message } = SendMessageSchema.parse(args);
-        const channel = await findChannel(channelIdentifier);
+        const { server, channel: channelIdentifier, message } = SendMessageSchema.parse(args);
+        const channel = await findChannel(channelIdentifier, server);
         
         const sent = await channel.send(message);
         return {
@@ -190,8 +198,8 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
       }
 
       case "read-messages": {
-        const { channel: channelIdentifier, limit } = ReadMessagesSchema.parse(args);
-        const channel = await findChannel(channelIdentifier);
+        const { server, channel: channelIdentifier, limit } = ReadMessagesSchema.parse(args);
+        const channel = await findChannel(channelIdentifier, server);
         
         const messages = await channel.messages.fetch({ limit });
         const formattedMessages = Array.from(messages.values()).map(msg => ({
